@@ -5,9 +5,8 @@
 </template>
 
 <script>
-import Proposals from '@/components/Proposals.vue'
+import Proposals from '@/components/Proposals.vue';
 export default {
-  name: 'Proposals',
   components: {
     Proposals
   }
