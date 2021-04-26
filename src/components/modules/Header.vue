@@ -141,21 +141,21 @@ export default {
           title: 'Tokenomics',
           route: '/tokenomics'
         },
-        {
-          id: 6,
-          title: 'Wiki',
-          route: '/wiki'
-        },
-        {
-          id: 7,
-          title: 'Research Areas',
-          route: '/research-areas'
-        },
-        {
-          id: 8,
-          title: 'Blog',
-          route: '/blog'
-        }
+        // {
+        //   id: 6,
+        //   title: 'Wiki',
+        //   route: '/wiki'
+        // },
+        // {
+        //   id: 7,
+        //   title: 'Research Areas',
+        //   route: '/research-areas'
+        // },
+        // {
+        //   id: 8,
+        //   title: 'Blog',
+        //   route: '/blog'
+        // }
       ]
     }
   },

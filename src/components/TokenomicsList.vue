@@ -40,10 +40,9 @@
             <div class="about-list__title-container">
               <h3 class="font-51">
                 Token <br>
-                Distribution<br>
-                Event Details<br>
+                Distribution
               </h3>
-              <div class="about-list__title-iso">
+              <div v-if="false" class="about-list__title-iso">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z" fill="#0500FF"/>
                   <line x1="10" y1="9" x2="10" y2="15" stroke="white" stroke-width="2"/>
@@ -52,6 +51,8 @@
                 IEO will start in Q2 2021*<br>
                 (*or sooner if Seed Round total<br> allocation claimed)<br>
               </div>
+              <a href="https://cmcx.io/" class="about-list__button" target="_blank">Contribute Now</a>
+              <div class="about-list__subtxt">The link will open in a new window</div>
             </div>
             <div class="about-list__item-part">
               <div class="about-list__item-color-ttl">Pre-Seed</div>
@@ -95,6 +96,27 @@ export default {
 }
 </script>
 <style scoped>
+  .about-list__subtxt{
+    font-size: 12px;
+    opacity: .3;
+  }
+  .about-list__button{
+    height: 52px;
+    background: #FF7152;
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 40px;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  }
+  .about-list__button:hover{
+    background: #0500FF;
+   }
   .tokenomics-list__text-ttl{
     font-size: 14px;
     line-height: 20px;
