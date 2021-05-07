@@ -19,12 +19,16 @@ export default new Vuex.Store({
     cases: items.cases,
     techTabs: items.technology,
     sideMenu: true,
-    research: items.research
+    research: items.research,
+    startPage: false
   },
   getters: {
     getSideMenuState: (state) => state.sideMenu,
   },
   mutations: {
+    setStartPage (state, data) {
+      state.startPage = data
+    },
     setMenuStatus (state, data) {
       state.activeMenu = data
     },

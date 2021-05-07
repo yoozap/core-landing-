@@ -176,6 +176,7 @@ export default {
   }
   .generation-outer{
     position: relative;
+    overflow: hidden;
   }
   .generation-container{
     position: relative;

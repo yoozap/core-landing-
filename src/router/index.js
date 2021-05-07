@@ -13,11 +13,17 @@ import Community from '../views/Community.vue'
 import Wiki from '../views/Wiki.vue'
 import ResearchAreas from '../views/ResearchAreas.vue'
 import Blog from '../views/Blog.vue'
+import Start from '../views/Start.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Start',
+    component: Start
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   },

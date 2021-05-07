@@ -1,7 +1,7 @@
 <template>
   <div :class="activeBurger ? 'activeBurger' : ''" v-if="true">
 <!--    {{$store.state.activeMenu}}-->
-    <header :class="firstAnimation ? 'animHead' : ''" v-if="!mobileMode">
+    <header :class="[firstAnimation ? 'animHead' : '']" v-if="!mobileMode">
       <router-link
         class="logo"
         to="/">
@@ -119,7 +119,7 @@ export default {
         {
           id: 1,
           title: 'Home',
-          route: '/'
+          route: '/home'
         },
         {
           id: 2,

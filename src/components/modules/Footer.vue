@@ -1,5 +1,5 @@
 <template>
-  <div class="footer__main">
+  <div class="footer__main" :class="$store.state.startPage ? 'start-page' : ''">
     <div data-aos="fade-up" class="container join_container">
        <div class="footer__join">
       <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/join-img.jpg`)" alt="" class="footer__join-img">
@@ -32,7 +32,7 @@
     <footer>
       <div class="footerBg"></div>
       <div data-aos="fade-up" class="container">
-        <div class="footerInner">
+        <div class="footerInner" v-if="!$store.state.startPage">
           <div class="footer__first-container" v-if="false">
             <router-link to="/" class="footer__logo">
               <img :src="require(`@/assets/img/footerLogo.svg`)" alt="" class="footer__logo-img">
@@ -219,7 +219,7 @@ export default {
         {
           id: 1,
           title: 'Home',
-          route: '/'
+          route: '/home'
         },
         {
           id: 2,
@@ -303,6 +303,15 @@ export default {
 }
 </script>
 <style scoped>
+  .footer__main.start-page .footer__last-nav a{
+    display: none;
+  }
+  .footer__main.start-page .footer__last-nav a:nth-child(1),.footer__main.start-page .footer__last-nav a:nth-child(2){
+    display: inline;
+  }
+  .footer__main.start-page .footerBg{
+    width: 100%;
+  }
   .join_container.container{
     display: none;
   }
@@ -478,6 +487,12 @@ export default {
     display: flex;
     height: 100%;
     flex-direction: column;
+  }
+  .footer__main.start-page .container{
+    padding: 0px 135px;
+  }
+  .footer__main.start-page .btnUp{
+    display: none;
   }
   .footerInner{
     display: flex;
@@ -711,6 +726,9 @@ export default {
     .footer__join-inner{
       flex-direction: column;
     }
+    .footer__main.start-page .container {
+      padding: 0px 50px;
+    }
   }
   /*Mobile 320*/
   @media (max-width: 767px){
@@ -776,6 +794,9 @@ export default {
       flex-direction: column;
       align-items: center;
       width: 100%;
+    }
+    .footer__main.start-page .container {
+      padding: 0px 15px;
     }
   }
 </style>
