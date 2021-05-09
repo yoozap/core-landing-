@@ -1,5 +1,5 @@
 <template>
-  <div class="footer__main" :class="$store.state.startPage ? 'start-page' : ''">
+  <div class="footer__main">
     <div data-aos="fade-up" class="container join_container">
        <div class="footer__join">
       <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/join-img.jpg`)" alt="" class="footer__join-img">
@@ -32,7 +32,7 @@
     <footer>
       <div class="footerBg"></div>
       <div data-aos="fade-up" class="container">
-        <div class="footerInner" v-if="!$store.state.startPage">
+        <div class="footerInner">
           <div class="footer__first-container" v-if="false">
             <router-link to="/" class="footer__logo">
               <img :src="require(`@/assets/img/footerLogo.svg`)" alt="" class="footer__logo-img">
@@ -219,7 +219,7 @@ export default {
         {
           id: 1,
           title: 'Home',
-          route: '/home'
+          route: '/'
         },
         {
           id: 2,

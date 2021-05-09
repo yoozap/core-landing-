@@ -119,7 +119,7 @@ export default {
         {
           id: 1,
           title: 'Home',
-          route: '/home'
+          route: '/'
         },
         {
           id: 2,

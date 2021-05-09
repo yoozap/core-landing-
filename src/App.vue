@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <EmailPopup/>
-    <Header v-if="sideMenuState && !$store.state.startPage"/>
+    <Header v-if="sideMenuState"/>
     <router-view/>
     <Footer/>
   </div>
