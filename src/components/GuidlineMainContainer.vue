@@ -62,7 +62,7 @@
                 <div class="guidline__colors-inner-description-floor">
                   <div class="guidline__colors-inner-description-floor-color" style="background: #FF7152"></div>
                   <div class="guidline__colors-inner-description-floor-descr" style="margin-left: 15px; margin-right: 40px"><span class="wdth1">FF7152</span></div>
-                  <div class="guidline__colors-inner-description-floor-descr" style="margin-right: 30px"><span class="wdth2">R=255</span><span class="wdth2">G=255</span><span class="wdth2">B=255</span></div>
+                  <div class="guidline__colors-inner-description-floor-descr" style="margin-right: 30px"><span class="wdth2">R=255</span><span class="wdth2">G=113</span><span class="wdth2">B=82</span></div>
                   <div class="guidline__colors-inner-description-floor-descr"><span class="wdth3">C=1</span><span class="wdth3">M=69</span><span class="wdth3">Y=74</span><span class="wdth3">K=0</span></div>
                 </div>
                 <div class="guidline__colors-inner-description-floor">

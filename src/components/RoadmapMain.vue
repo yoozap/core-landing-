@@ -24,9 +24,8 @@
             <div data-aos="fade-up" class="roadmap__item">
               <div class="roadmap__item-title">Q1</div>
               <div class="roadmap__item-description">Website Launch</div>
-              <div class="roadmap__item-description">Light-paper</div>
+              <div class="roadmap__item-description">CORE Paper</div>
               <div class="roadmap__item-description">Request for Proposals (R1)</div>
-              <div class="roadmap__item-description">White-paper(Version 0.1)</div>
               <div class="roadmap__item-description">Seed Founders On-Boarding</div>
               <div class="roadmap__item-description">CMCX Token Offering</div>
             </div>
