@@ -63,6 +63,17 @@ export default {
           property: "og:description",
           content:
             "CORE Multi-Chain (Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
+        },
+        {
+          vmid: "og:url",
+          property: "og:url",
+          content:
+            "https://coremultichain.com/"
+        },
+        {
+          vmid: "og:image",
+          property: "og:image",
+          content: require(`@/assets/img/og_meta_tag.jpg`)
         }
       ]
     }
