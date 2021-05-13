@@ -20,12 +20,6 @@ import VueMq from 'vue-mq'
 import Clipboard from 'v-clipboard'
 import vClickOutside from 'v-click-outside'
 import Meta from "vue-meta";
-import headful from 'headful';
-
-headful({
-  title: 'Title from Headful',
-  image: 'https://miro.medium.com/max/1144/1*QTTe0JDhRn-yWlQj7gdocA.png'
-});
 Vue.use(Meta);
 
 Vue.use(vClickOutside);
