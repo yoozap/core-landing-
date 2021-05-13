@@ -14,8 +14,8 @@
       <div class="chart-container" data-aos="fade-up">
         <div class="chart-container__left">
           <div class="chart-container__inner">
-            <img :src="require(`@/assets/img/chart.png`)" alt="" class="chart__img">
-            <img :src="require(`@/assets/img/gradientChart.png`)" alt="" class="chart__imgGr">
+            <img :src="require(`@/assets/img/chart.png`)" alt="chart" class="chart__img">
+            <img :src="require(`@/assets/img/gradientChart.png`)" alt="gradient" class="chart__imgGr">
             <div id="chart">
               <apexchart type="radialBar" height="380" :options="chartOptions" :series="series"></apexchart>
             </div>
@@ -46,7 +46,7 @@
       <div data-aos="fade-up" class="column-chart-container pT-160">
         <div class="column-chart-container__inner">
           <div class="column-chart__title">Asset Size</div>
-          <img :src="require(`@/assets/img/charts/asset_size.png`)" alt="" class="column-chart-container__img">
+          <img :src="require(`@/assets/img/charts/asset_size.png`)" alt="asset-size" class="column-chart-container__img">
           <div class="column-chart__footer">
             <div class="column-chart__footer-item" style="color: #817EFF">
               <span style="background: #817EFF"></span>
@@ -62,7 +62,7 @@
       <div data-aos="fade-up" class="column-chart-container pT-160">
         <div class="column-chart-container__inner">
           <div class="column-chart__title">Capital Ratios</div>
-          <img :src="require(`@/assets/img/charts/capital_ratios.png`)" alt="" class="column-chart-container__img">
+          <img :src="require(`@/assets/img/charts/capital_ratios.png`)" alt="capital-img" class="column-chart-container__img">
           <div class="column-chart__footer">
             <div class="column-chart__footer-item" style="color: #817EFF">
               <span style="background: #817EFF"></span>
@@ -78,7 +78,7 @@
       <div data-aos="fade-up" class="column-chart-container pT-160 pB-160">
         <div class="column-chart-container__inner">
           <div class="column-chart__title">Pre-Tax Income</div>
-          <img :src="require(`@/assets/img/charts/pre-tax_income.png`)" alt="" class="column-chart-container__img">
+          <img :src="require(`@/assets/img/charts/pre-tax_income.png`)" alt="pre-tax" class="column-chart-container__img">
         </div>
       </div>
     </div>

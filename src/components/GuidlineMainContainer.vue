@@ -15,7 +15,7 @@
             <div data-aos="fade-up" class="guidline__flex frst-contn pB-160">
             <div class="guidline__half">
               <div class="guidline__ltl-ttl">Logo</div>
-              <div><img :src="require(`@/assets/img/guidline/1.png`)" class="lgimg" alt=""></div>
+              <div><img :src="require(`@/assets/img/guidline/1.png`)" class="lgimg" alt="guid-image"></div>
             </div>
             <div class="guidline__half">
               <div class="guidline__ltl-ttl">Colors</div>
@@ -38,7 +38,7 @@
             </div>
             <div data-aos="fade-up" class="pB-160 guidline__colors-container">
             <div data-aos="fade-up" class="guidline__colors-inner" style="background: #000000">
-              <div class="guidline__colors-inner-img"><img :src="require(`@/assets/img/guidline/1.png`)" alt=""></div>
+              <div class="guidline__colors-inner-img"><img :src="require(`@/assets/img/guidline/1.png`)" alt="guidline1"></div>
               <div class="guidline__colors-inner-description">
                 <div class="guidline__colors-inner-description-title" style="color: #ffffff">On dark</div>
                 <div class="guidline__colors-inner-description-floor">
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div data-aos="fade-up" class="guidline__colors-inner guidline__colors-inner-white"  style="background: #ffffff">
-              <div class="guidline__colors-inner-img"><img :src="require(`@/assets/img/guidline/2.png`)" alt=""></div>
+              <div class="guidline__colors-inner-img"><img :src="require(`@/assets/img/guidline/2.png`)" alt="guidline-img"></div>
               <div class="guidline__colors-inner-description">
                 <div class="guidline__colors-inner-description-title" style="color: #000000">On dark</div>
                 <div class="guidline__colors-inner-description-floor">
@@ -88,7 +88,7 @@
                 the logo is equivalent to the radius of the symbol.
               </div>
               <div class="guidline__paragraph-half-img pB-160">
-                <img :src="require(`@/assets/img/guidline/14.png`)" alt="">
+                <img :src="require(`@/assets/img/guidline/14.png`)" alt="guidline3">
               </div>
             </div>
           </div>
@@ -107,56 +107,56 @@
           </div>
           <div data-aos="fade-up" class="guidline__table pB-160">
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/3.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/3.png`)" alt="guidline-4">
               <div class="guidline__table-item-ttl">
                 Do not change the size relationship of the symbol
                 and the wordmark.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/4.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/4.png`)" alt="guidline4">
               <div class="guidline__table-item-ttl">
                 Do not make the logo a single colour.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/5.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/5.png`)" alt="guidline5">
               <div class="guidline__table-item-ttl">
                 Do not alter the colour of the symbol or the wordmark.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/6.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/6.png`)" alt="guidline6">
               <div class="guidline__table-item-ttl">
                 Do not add effects such as drop shadows, gradients or glow.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/7.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/7.png`)" alt="guidline7">
               <div class="guidline__table-item-ttl">
                 Do not use as a mask or holding shape for imagery.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/8.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/8.png`)" alt="guidline8">
               <div class="guidline__table-item-ttl">
                 Do not place onto backgrounds with insufficient contrast to the logo.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/9.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/9.png`)" alt="guidline9">
               <div class="guidline__table-item-ttl">
                 Do not rotate, skew, or shear.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/10.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/10.png`)" alt="guidline10">
               <div class="guidline__table-item-ttl">
                 Do not distort proportions.
               </div>
             </div>
             <div class="guidline__table-item">
-              <img :src="require(`@/assets/img/guidline/11.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/11.png`)" alt="guidline11">
               <div class="guidline__table-item-ttl">
                 Do not add text closely to the logotype to create another logo.
               </div>
@@ -174,7 +174,7 @@
           </div>
         </div>
           <div data-aos="fade-up" class="guidline__partners">
-            <img :src="require(`@/assets/img/guidline/1.png`)" alt="">
+            <img :src="require(`@/assets/img/guidline/1.png`)" alt="guidline1">
             <span class="line"></span>
             <div class="guidline__partners-txt">Partners</div>
           </div>
@@ -199,7 +199,7 @@
           </div>
           <div data-aos="fade-up" class="pT-160 guidline__flex">
               <div class="guidline__bg-outer">
-                <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/guidelines_bg.jpg`)" alt="">
+                <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/guidelines_bg.jpg`)" alt="guidline-bg">
               </div>
               <div class="guidline__half">
                 <div class="guidline__lrg-ttl font-51">Solid Colours</div>
@@ -287,14 +287,14 @@
                 <div class="guidline__end-half-descr-title">About CORE</div>
                 <div class="guidline__end-half-descr-txt">Our mission, vision & information</div>
               </div>
-              <img :src="require(`@/assets/img/guidline/12.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/12.png`)" alt="guidline-12">
             </router-link>
             <router-link to="/technology" class="guidline__end-half">
               <div class="guidline__end-half-descr">
                 <div class="guidline__end-half-descr-title">Technologies</div>
                 <div class="guidline__end-half-descr-txt">Which makes CORE different</div>
               </div>
-              <img :src="require(`@/assets/img/guidline/13.png`)" alt="">
+              <img :src="require(`@/assets/img/guidline/13.png`)" alt="guidline14">
             </router-link>
           </div>
         </div>

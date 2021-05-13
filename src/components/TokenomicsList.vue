@@ -1,6 +1,6 @@
 <template>
   <div class="tokenomics-list__container">
-    <img :src="require(`@/assets/img/tokenomicslist.jpg`)" alt="" class="token-bg">
+    <img :src="require(`@/assets/img/tokenomicslist.jpg`)" alt="tokenomicslist" class="token-bg">
     <div class="container">
       <div class="tokenomics-list pT-160 pB-160">
         <h3 class="font-51" data-aos="fade-up">

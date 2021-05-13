@@ -2,7 +2,7 @@
   <div>
     <div id="main" class="outer" :class="firstAnimation ? 'animHead' : ''" v-view="visibilityChanged">
       <div class="community__main-bg">
-        <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/community.jpg`)" alt="">
+        <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/community.jpg`)" alt="community">
       </div>
       <TopHead/>
       <div class="container">
@@ -44,7 +44,7 @@
         <div class="community__container mb-80">
           <div class="community__circle-container">
             <div class="community__circle">
-              <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/circle1.jpg`)" alt="">
+              <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/circle1.jpg`)" alt="circle1">
             </div>
           </div>
           <div class="community__container-inner">
@@ -69,7 +69,7 @@
             <div data-aos="fade-up" class="community__horizontal-ttl-container">
               <div class="community__circle2-container">
                 <div class="community__circle2">
-                  <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/circle2.jpg`)" alt="">
+                  <img v-prlx="{ speed: 0.2 }" :src="require(`@/assets/img/circle2.jpg`)" alt="circle2">
                 </div>
               </div>
               <div class="community__horizontal-ttl font-51">Developer Community</div>

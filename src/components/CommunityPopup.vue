@@ -11,7 +11,7 @@
       <VueSlickCarousel v-bind="settings" ref="carousel">
         <div class="community-popup__item" v-for="(item,index) in itemData" :key="index">
           <div class="videoContainer">
-            <img :src="require(`@/assets/img/gradient2.png`)" alt="" class="gradient2">
+            <img :src="require(`@/assets/img/gradient2.png`)" alt="gradient" class="gradient2">
             <div class="video" v-html="item.video"></div>
           </div>
           <h4>{{item.title}}</h4>

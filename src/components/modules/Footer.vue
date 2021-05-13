@@ -2,7 +2,7 @@
   <div class="footer__main">
     <div data-aos="fade-up" class="container join_container">
        <div class="footer__join">
-      <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/join-img.jpg`)" alt="" class="footer__join-img">
+      <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/join-img.jpg`)" alt="join-img" class="footer__join-img">
       <div class="footer__join-inner">
         <div class="footer__join-left">
           <div class="footer__join-title">

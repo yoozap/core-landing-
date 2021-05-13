@@ -1,7 +1,7 @@
 <template>
   <div class="techno-tabs__container-outer pT-160" >
     <div class="tabs-bg-out">
-      <img v-prlx="{ speed: 0.1 }"  :src="require(`@/assets/img/techBg.jpg`)" alt="" class="tabs-bg">
+      <img v-prlx="{ speed: 0.1 }"  :src="require(`@/assets/img/techBg.jpg`)" alt="tech-bg" class="tabs-bg">
     </div>
     <div class="techno-tabs__container container">
       <div class="techno-tabs__inner" data-aos="fade-up">

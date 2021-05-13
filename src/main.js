@@ -19,10 +19,12 @@ import VueScrollactive from 'vue-scrollactive'
 import VueMq from 'vue-mq'
 import Clipboard from 'v-clipboard'
 import vClickOutside from 'v-click-outside'
+import Meta from "vue-meta";
+Vue.use(Meta);
 
-Vue.use(vClickOutside)
- 
-Vue.use(Clipboard)
+Vue.use(vClickOutside);
+
+Vue.use(Clipboard);
 
 Vue.use(VueMq,{
   breakpoints: {
@@ -32,7 +34,7 @@ Vue.use(VueMq,{
     lg: 1367,
   },defaultBreakpoint: 'sm' // customize this for SSR
 })
- 
+
 Vue.use(VueScrollactive)
 Vue.component('slide-up-down', SlideUpDown)
 Vue.component('slide-up-down', SlideUpDown)

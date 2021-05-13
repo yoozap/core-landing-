@@ -5,10 +5,10 @@
       <div class="developers-container__tab" data-aos="fade-up">
         <div class="developers-container__right-inner">
           <div class="developers-container__tab-icon">
-            <img :src="require(`@/assets/img/sdk.png`)" alt="" >
+            <img :src="require(`@/assets/img/sdk.png`)" alt="sdk" >
           </div>
           <div class="right">
-            <img :src="require(`@/assets/img/dev-bg.png`)" alt="" class="developers-container__right-image">
+            <img :src="require(`@/assets/img/dev-bg.png`)" alt="dev-bg" class="developers-container__right-image">
             <div class="ttl">CORE SDK</div>
             <div class="sub-ttl">Build your personalized enterprise-grade blockchain</div>
             <div class="descr">Our SDK makes it incredibly easy and efficient for developers to develop custom

@@ -19,7 +19,7 @@
         <div class="proposals_li">
           <div class="proposals_li-bg"></div>
           <div class="proposals_img-outer">
-            <img :src="require(`@/assets/img/purpose.jpg`)" alt="" class="proposals_img">
+            <img :src="require(`@/assets/img/purpose.jpg`)" alt="purpose" class="proposals_img">
           </div>
           <ul>
             <li>Consensus Protocols</li>

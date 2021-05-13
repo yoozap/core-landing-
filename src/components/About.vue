@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="about">
     <picture>
-      <img src="@/assets/img/tokenomicslist.jpg" alt="" class="bg">
+      <img src="@/assets/img/tokenomicslist.jpg" alt="tokenomicslist" class="bg">
     </picture>
     <div class="inner pT-160 pB-160">
       <div class="left">
