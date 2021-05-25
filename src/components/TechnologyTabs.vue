@@ -7,7 +7,7 @@
       <div class="techno-tabs__inner" data-aos="fade-up">
         <div class="left">
           <div class="techno-tabs__item" v-for="item in itemData" :key="item.id" :class="activeTab == item.id ? 'active' : ''">
-            <h3 class="font-51">{{item.title}}</h3>
+            <h3 class="font-51" v-html="item.title"></h3>
             <div class="techno-tabs__item-text" v-html="item.text">
             </div>
           </div>
@@ -162,6 +162,13 @@ export default {
     transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
     transform: translateY(10px);
     opacity: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  h3 svg{
+    position: absolute;
+    left: -60px;
   }
   .top_svg{
     z-index: 10;

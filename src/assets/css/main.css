@@ -143,6 +143,10 @@ button {
     line-height: 24px;
     color: rgba(255,255,255,.5);
 }
+.techno-tabs__item h3 svg{
+    position: absolute;
+    left: -60px;
+}
 /*Laptop 1440*/
 @media (max-width: 1900px){
     .font-72{
@@ -174,6 +178,11 @@ button {
 }
 /*Ipad 768*/
 @media (max-width: 1023px){
+    .techno-tabs__item h3 svg {
+        position: relative;
+        left: 0px;
+        margin-right: 15px;
+    }
     .pT-160 {
         padding-top: 50px;
     }

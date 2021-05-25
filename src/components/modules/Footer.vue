@@ -207,6 +207,7 @@
             <router-link to="/proposals">Request for Proposals</router-link>
             <router-link to="/guidelines">Brand Guidelines</router-link>
             <a href="https://cmcx.io/">Contribution</a>
+            <a href="https://www.certik.org/projects/coremultichain" target="_blank">Security Audited by CERTIK</a>
           </div>
           <a href="#main" v-smooth-scroll class="btnUp">
             Up
