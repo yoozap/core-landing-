@@ -19,7 +19,8 @@ export default new Vuex.Store({
     cases: items.cases,
     techTabs: items.technology,
     sideMenu: true,
-    research: items.research
+    research: items.research,
+    video: true
   },
   getters: {
     getSideMenuState: (state) => state.sideMenu,
