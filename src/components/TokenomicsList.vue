@@ -184,13 +184,16 @@
               </svg>
             </a>
           </div>
-          <div class="download__video-button">
+          <div class="download__video-button" @click="openVideo">
             <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 7L3.01142e-07 13.9282L9.06825e-07 0.0717964L12 7Z" fill="#FF7152"/>
             </svg>
             watch instructions video
           </div>
         </div>
+        <audio ref="tronlinkAudio">
+          <source :src="require(`@/assets/img/tronlink.mp3`)" type="audio/mpeg">
+        </audio>
       </div>
    </div>
   </div>
@@ -207,6 +210,26 @@ export default {
     }
   },
   methods: {
+    openVideo() {
+      this.$store.commit('setVideo', true);
+    }
+  },
+  watch: {
+    "$store.state.video": {
+      immediate: true,
+      handler: function() {
+        if(this.$store.state.video){
+          setTimeout(() => {
+            this.$refs.tronlinkAudio.play()
+          },2000)
+          return false
+        }
+        if(!this.$store.state.video){
+          this.$refs.tronlinkAudio.pause();
+          return false
+        }
+      }
+    },
   }
 }
 </script>

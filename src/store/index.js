@@ -20,12 +20,15 @@ export default new Vuex.Store({
     techTabs: items.technology,
     sideMenu: true,
     research: items.research,
-    video: true
+    video: false
   },
   getters: {
     getSideMenuState: (state) => state.sideMenu,
   },
   mutations: {
+    setVideo (state, data) {
+      state.video = data
+    },
     setMenuStatus (state, data) {
       state.activeMenu = data
     },
