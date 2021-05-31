@@ -6,7 +6,8 @@
         <path d="M1.25 1.25L38.75 38.75" stroke="rgba(73,223,143,1)" stroke-width="4"/>
       </svg>
     </div>
-    <CloudflareVideoPlayer video-id="a6556f211b0e2f7905c243b0f58e5eec" :autoplay="true"/>
+    <VideoStream ref="videoRef" id="stream-player" controls autoplay src="a6556f211b0e2f7905c243b0f58e5eec"/>
+<!--    <CloudflareVideoPlayer video-id="a6556f211b0e2f7905c243b0f58e5eec" :autoplay="true"/>-->
 <!--    <iframe-->
 <!--      src="https://iframe.videodelivery.net/a6556f211b0e2f7905c243b0f58e5eec"-->
 <!--      style="border: none;"-->
@@ -29,13 +30,17 @@
     </div>
   </div>
 </template>
-
 <script>
+  import { VideoStream } from 'stream-vue';
+
   export default {
     data () {
       return {
         button: false
       }
+    },
+    components: {
+      VideoStream
     },
     methods: {
       closeVideo () {
@@ -44,7 +49,7 @@
         this.button = false
       },
       playVideo () {
-        // this.$refs.videoRef.play()
+        this.$refs.videoRef.play()
         // if (!this.button) {
         //   this.$refs.videoRef.play()
         //   this.button = true
