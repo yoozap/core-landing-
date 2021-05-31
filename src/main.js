@@ -20,6 +20,9 @@ import VueMq from 'vue-mq'
 import Clipboard from 'v-clipboard'
 import vClickOutside from 'v-click-outside'
 import Meta from "vue-meta";
+import CloudflareVideoPlayer from 'vue-cloudflare-video-player';
+
+Vue.use(CloudflareVideoPlayer);
 Vue.use(Meta);
 
 Vue.use(vClickOutside);

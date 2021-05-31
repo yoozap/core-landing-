@@ -4,6 +4,7 @@
     <Header v-if="sideMenuState"/>
     <router-view/>
     <Footer/>
+    <VideoContainer/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from './components/modules/Header'
 import Footer from './components/modules/Footer'
 import EmailPopup from './components/EmailPopup'
+import VideoContainer from './components/VideoContainer'
 import { mapGetters } from 'vuex'
 
 export default {
@@ -22,7 +24,8 @@ export default {
   components: {
     EmailPopup,
     Header,
-    Footer
+    Footer,
+    VideoContainer
   },
   computed:{
     ...mapGetters({
