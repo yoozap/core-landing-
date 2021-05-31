@@ -6,21 +6,7 @@
         <path d="M1.25 1.25L38.75 38.75" stroke="rgba(73,223,143,1)" stroke-width="4"/>
       </svg>
     </div>
-    <VideoStream ref="videoRef" id="stream-player" controls autoplay src="a6556f211b0e2f7905c243b0f58e5eec"/>
-<!--    <CloudflareVideoPlayer video-id="a6556f211b0e2f7905c243b0f58e5eec" :autoplay="true"/>-->
-<!--    <iframe-->
-<!--      src="https://iframe.videodelivery.net/a6556f211b0e2f7905c243b0f58e5eec"-->
-<!--      style="border: none;"-->
-<!--      height="720"-->
-<!--      width="1280"-->
-<!--      allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"-->
-<!--      allowfullscreen="true"-->
-<!--      id="stream-player"-->
-<!--    ></iframe>-->
-<!--    <video loop class="video" ref="videoRef">-->
-<!--      <source src="https://watch.videodelivery.net/a6556f211b0e2f7905c243b0f58e5eec" type="video/mp4">-->
-<!--    </video>-->
-<!--    <img src="@/assets/img/video.jpg" alt="" class="cover" :class="button ? 'hide' : ''">-->
+    <CloudflareVideoPlayer video-id="a6556f211b0e2f7905c243b0f58e5eec" :autoplay="true" />
     <div class="play-video__container" :class="button ? 'hide' : ''" @click="playVideo" v-if="true">
       <div class="play-video">
         <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,8 +17,7 @@
   </div>
 </template>
 <script>
-  import { VideoStream } from 'stream-vue';
-
+  import CloudflareVideoPlayer from "vue-cloudflare-video-player";
   export default {
     data () {
       return {
@@ -40,7 +25,7 @@
       }
     },
     components: {
-      VideoStream
+      CloudflareVideoPlayer
     },
     methods: {
       closeVideo () {
@@ -49,7 +34,7 @@
         this.button = false
       },
       playVideo () {
-        this.$refs.videoRef.play()
+        // this.$refs.videoRef.play()
         // if (!this.button) {
         //   this.$refs.videoRef.play()
         //   this.button = true
