@@ -160,21 +160,20 @@ export default {
 #main {
   position: relative;
   width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   background: #00050f;
   z-index: 2;
 }
 /*Laptop 1440*/
-@media (max-width: 1900px) {
+/* @media (max-width: 1900px) {
   #main {
     min-height: 800px;
   }
-}
+} */
 /*Ipad Pro 1024*/
 @media (max-width: 1300px) {
-  #main {
+  /* #main {
     min-height: 640px;
-  }
+  } */
   .main-container__description {
     padding-left: 25px;
   }
@@ -273,9 +272,9 @@ export default {
   .main-container__description {
     padding: 0px;
   }
-  #main {
+  /* #main {
     min-height: 600px;
     height: 100vh;
-  }
+  } */
 }
 </style>

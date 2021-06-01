@@ -1,45 +1,47 @@
 <template>
   <div id="app">
-    <EmailPopup/>
-    <Header v-if="sideMenuState"/>
-    <router-view/>
-    <Footer/>
-    <VideoContainer/>
+    <EmailPopup />
+    <Header v-if="sideMenuState" />
+    <router-view />
+    <Footer />
+    <!-- <VideoContainer/> -->
   </div>
 </template>
 
 <script>
-import Header from './components/modules/Header'
-import Footer from './components/modules/Footer'
-import EmailPopup from './components/EmailPopup'
-import VideoContainer from './components/VideoContainer'
-import { mapGetters } from 'vuex'
+import Header from "./components/modules/Header";
+import Footer from "./components/modules/Footer";
+import EmailPopup from "./components/EmailPopup";
+// import VideoContainer from './components/VideoContainer'
+import { mapGetters } from "vuex";
 
 export default {
-  data(){
-    return{
+  data() {
+    return {
       baseUrl: window.location.origin
-    }
+    };
   },
   components: {
     EmailPopup,
     Header,
-    Footer,
-    VideoContainer
+    Footer
+    // VideoContainer
   },
-  computed:{
+  computed: {
     ...mapGetters({
-      sideMenuState: 'getSideMenuState'
+      sideMenuState: "getSideMenuState"
     })
   },
   metaInfo() {
     return {
-      title: "CORE Multi-Chain: Cryptographic Object Resource Engine | Blockchain 3.0 Platform",
+      title:
+        "CORE Multi-Chain: Cryptographic Object Resource Engine | Blockchain 3.0 Platform",
       meta: [
         {
           vmid: "description",
           name: "description",
-          content: "CORE Multi-Chain(Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
+          content:
+            "CORE Multi-Chain(Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
         },
         {
           vmid: "referrer",
@@ -64,7 +66,8 @@ export default {
         {
           vmid: "og:description",
           property: "og:description",
-          content: "CORE Multi-Chain (Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
+          content:
+            "CORE Multi-Chain (Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
         },
         {
           vmid: "og:url",
@@ -89,7 +92,8 @@ export default {
         {
           vmid: "twitter:description",
           name: "twitter:description",
-          content: "CORE Multi-Chain (Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
+          content:
+            "CORE Multi-Chain (Cryptographic Object Resource Engine) is a PoS blockchain 3.0 framework focused on Interoperability, Scalability, and Usability."
         },
         {
           vmid: "twitter:image",
@@ -117,10 +121,8 @@ export default {
           content: "628"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
-<style>
-
-</style>
+<style></style>
