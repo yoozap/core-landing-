@@ -100,7 +100,6 @@ export default {
 };
 </script>
 <style scoped>
-<<<<<<< HEAD
 .video-container__close {
   top: 30px;
   right: 30px;
@@ -191,97 +190,6 @@ export default {
   .play-video {
     height: 60px;
     width: 60px;
-=======
-  .video-container__close{
-    top: 30px;
-    right: 30px;
-    position: absolute;
-    z-index: 20;
-    cursor: pointer;
-  }
-  .video-container__close path{
-    transition: .6s ease-in-out;
-  }
-  .video-container__close:hover path{
-    stroke: #ff7152;
-  }
-  .play-video:hover{
-    background: rgba(73,223,143,1);
-  }
-  .play-video{
-    height: 160px;
-    width: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .6s ease-in-out;
-    background: rgba(57,126,244,1);
-    border-radius: 50%;
-  }
-  .play-video__container{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .6s ease-in-out;
-    cursor: pointer;
-  }
-  .play-video__container.hide,.cover.hide{
-    opacity: 0;
-  }
-  .cover{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    transition: .6s ease-in-out;
-  }
-  .video-container{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 9999999;
-    /*display: none;*/
-    background: #020B1D;
-    transition: .6s cubic-bezier(.79,.01,.15,.99);
-    opacity: 0;
-    pointer-events: none;
-  }
-  .video-container.active{
-    opacity: 1;
-    pointer-events: all;
-  }
-  .video{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    outline: none;
-  }
-  /*Ipad Pro 1024*/
-  @media (max-width: 1365px){
-    .play-video{
-      height: 100px;
-      width: 100px;
-    }
-  }
-  /*Mobile 320*/
-  @media (max-width: 767px){
-    .play-video{
-      height: 60px;
-      width: 60px;
-    }
-
->>>>>>> 5c31c32c4ef623c643befb5fc9a9645910a037f2
   }
 }
 </style>
