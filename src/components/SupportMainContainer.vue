@@ -23,142 +23,143 @@
               <span>Center</span>
             </h1>
           </div>
-
-          <div class="support__items" data-aos="fade-up">
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/megaphone.svg" alt="" />
-              <a href="#"
-                >Announcements
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>CORE latest official announcements and notices.</p>
-            </div>
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/coins.svg" alt="" />
-              <a href="#"
-                >CMCX Token
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>The Bridge Between Crypto and Global Finance.</p>
-            </div>
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/academy.svg" alt="" />
-              <a href="#"
-                >Academy
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>
-                Get a deeper understanding of the crypto industry and market.
-              </p>
-            </div>
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/faq.svg" alt="" />
-              <a href="#"
-                >FAQ
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>Any issues? Find answers to commonly asked questions.</p>
-            </div>
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/submit.svg" alt="" />
-              <a href="#"
-                >Submit a request
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>
-                Can't find the solution to your problem? Submit a request to
-                support team.
-              </p>
-            </div>
-            <div class="support_item" data-aos="fade-up">
-              <img src="../assets/img/support/api.svg" alt="" />
-              <a href="#"
-                >API Documentation
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g opacity="0.5">
-                    <path
-                      d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </a>
-              <p>
-                All document you need when connecting to AAX by API.
-              </p>
-            </div>
-          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="support__items" data-aos="fade-up">
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/megaphone.svg" alt="" />
+          <a href="#"
+            >Announcements
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>CORE latest official announcements and notices.</p>
+        </div>
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/coins.svg" alt="" />
+          <a href="#"
+            >CMCX Token
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>The Bridge Between Crypto and Global Finance.</p>
+        </div>
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/academy.svg" alt="" />
+          <a href="#"
+            >Academy
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>
+            Get a deeper understanding of the crypto industry and market.
+          </p>
+        </div>
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/faq.svg" alt="" />
+          <a href="#"
+            >FAQ
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>Any issues? Find answers to commonly asked questions.</p>
+        </div>
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/submit.svg" alt="" />
+          <a href="#"
+            >Submit a request
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>
+            Can't find the solution to your problem? Submit a request to support
+            team.
+          </p>
+        </div>
+        <div class="support_item" data-aos="fade-up">
+          <img src="../assets/img/support/api.svg" alt="" />
+          <a href="#"
+            >API Documentation
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M14 2V8.87H12.0005V5.42L3.4205 14L2 12.5795L10.58 3.9995H7.1495V2H14Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+          <p>
+            All document you need when connecting to AAX by API.
+          </p>
         </div>
       </div>
     </div>
@@ -273,7 +274,6 @@ export default {
 #main {
   position: relative;
   width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   background: #00050f;
   z-index: 2;
 }
@@ -318,20 +318,13 @@ export default {
 }
 .support_item p {
   opacity: 0.7;
+  font-size: 15px;
   line-height: 30px;
   margin-top: 16px;
 }
-/*Laptop 1440*/
-@media (max-width: 1900px) {
-  #main {
-    min-height: 800px;
-  }
-}
+
 /*Ipad Pro 1024*/
 @media (max-width: 1300px) {
-  #main {
-    min-height: 640px;
-  }
   .main-container__description {
     padding-left: 25px;
   }
@@ -345,6 +338,20 @@ export default {
   .counter-container {
     margin-top: 70px;
   } */
+  .support__items {
+    margin-top: 70px;
+  }
+  .support_item {
+    padding-right: 100px;
+    margin-bottom: 70px;
+  }
+  .support_item img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .support_item a {
+    margin-top: 30px;
+  }
 }
 /*Ipad 768*/
 @media (max-width: 1023px) {
@@ -383,6 +390,14 @@ export default {
   /* .counter-container {
     max-width: 500px;
   } */
+  .support_item {
+    padding-right: 30px;
+    margin-bottom: 70px;
+  }
+  .support_item img {
+    max-width: 70px;
+    max-height: 70px;
+  }
 }
 /*Mobile 320*/
 @media (max-width: 767px) {
@@ -430,9 +445,15 @@ export default {
   .main-container__description {
     padding: 0px;
   }
-  #main {
-    min-height: 600px;
-    height: 100vh;
+
+  .support__items {
+    flex-direction: column;
+  }
+  .support_item {
+    width: 100%;
+  }
+  .support_item p {
+    text-align: left;
   }
 }
 </style>

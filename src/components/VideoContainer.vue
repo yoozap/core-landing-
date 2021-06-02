@@ -6,7 +6,7 @@
         <path d="M1.25 1.25L38.75 38.75" stroke="#0500FF" stroke-width="4"/>
       </svg>
     </div>
-    <div class="main-video" style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/a6556f211b0e2f7905c243b0f58e5eec?muted=true&autoplay=true&controls=false" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+    <div class="main-video"><iframe src="https://iframe.videodelivery.net/a6556f211b0e2f7905c243b0f58e5eec?muted=true&autoplay=true&controls=false" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   </div>
 </template>
 <script>
@@ -125,6 +125,9 @@
       height: 60px;
       width: 60px;
     }
-
+    .video-container__close{
+      top: 10px;
+      right: 10px;
+    }
   }
 </style>
