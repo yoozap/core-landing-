@@ -94,6 +94,13 @@
     transition: .6s cubic-bezier(.79,.01,.15,.99);
     opacity: 0;
     pointer-events: none;
+    display: flex;
+    align-items: center;
+  }
+  .main-video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
   }
   .video-container.active{
     opacity: 1;
