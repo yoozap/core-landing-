@@ -222,12 +222,12 @@ export default {
             setTimeout(() => {
               this.$refs.tronlinkAudio.play()
             },2000)
+            // return false
+          }
+          if(!this.$store.state.video){
+            this.$refs.tronlinkAudio.pause();
             return false
           }
-          // if(!this.$store.state.video){
-          //   this.$refs.tronlinkAudio.pause();
-          //   return false
-          // }
       }
     },
   }
