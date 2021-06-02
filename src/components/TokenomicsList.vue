@@ -218,7 +218,6 @@ export default {
     "$store.state.video": {
       immediate: true,
       handler: function() {
-
           if(this.$store.state.video){
             setTimeout(() => {
               this.$refs.tronlinkAudio.play()

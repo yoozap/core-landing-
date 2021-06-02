@@ -114,17 +114,9 @@
   }
   /*Ipad Pro 1024*/
   @media (max-width: 1365px){
-    .play-video{
-      height: 100px;
-      width: 100px;
-    }
   }
   /*Mobile 320*/
   @media (max-width: 767px){
-    .play-video{
-      height: 60px;
-      width: 60px;
-    }
     .video-container__close{
       top: 10px;
       right: 10px;
