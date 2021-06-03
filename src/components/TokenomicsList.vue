@@ -218,16 +218,16 @@ export default {
     "$store.state.video": {
       immediate: true,
       handler: function() {
-        if(this.$store.state.video){
-          setTimeout(() => {
-            this.$refs.tronlinkAudio.play()
-          },2000)
-          return false
-        }
-        if(!this.$store.state.video){
-          this.$refs.tronlinkAudio.pause();
-          return false
-        }
+          if(this.$store.state.video){
+            setTimeout(() => {
+              this.$refs.tronlinkAudio.play()
+            },2000)
+            // return false
+          }
+          if(!this.$store.state.video){
+            this.$refs.tronlinkAudio.pause();
+            return false
+          }
       }
     },
   }
