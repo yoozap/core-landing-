@@ -53,6 +53,7 @@ corresponding screenshots"
           :auto-upload="false"
           class="file-upload__container"
           ref="upload"
+          :file-list="fileList"
         >
           <i slot="default" class="el-icon-plus"></i>
           <div slot="file" slot-scope="{ file }">
@@ -108,7 +109,7 @@ export default {
       dialogImageUrl: "",
       dialogVisible: false,
       disabled: false,
-      files: [],
+      fileList: [],
       success: false,
 
       ruleForm: {
@@ -152,10 +153,9 @@ export default {
       this.$store.commit("setMenuStatus", 0);
     },
     handleRemove(file) {
+      // let index = this.fileList.findIndex((file = file === this.file));
       console.log(file, this.files);
-      this.files.splice(file, 1);
-
-      this.$message.success("Succefully Deleted");
+      this.fileList.splice(file, 1);
     },
     submitForm(ruleForm) {
       this.$refs[ruleForm].validate(valid => {
