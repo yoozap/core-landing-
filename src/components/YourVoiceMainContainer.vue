@@ -152,17 +152,10 @@ export default {
     visibilityChanged() {
       this.$store.commit("setMenuStatus", 0);
     },
-    handleRemove(file, fileList) {
-      return new Promise((resolve, reject) => {
-        this.$confirm("Are you sure you want to delete this photo?")
-          .then(_ => {
-            this.fileList = fileList;
-            resolve();
-          })
-          .catch(_ => {
-            reject();
-          });
-      });
+    handleRemove(file) {
+      // let index = this.fileList.findIndex((file = file === this.file));
+      console.log(file, this.fileList);
+      this.fileList.splice(file, 1);
     },
     submitForm(ruleForm) {
       this.$refs[ruleForm].validate(valid => {
