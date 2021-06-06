@@ -394,7 +394,7 @@
           <div class="footer__last-nav">
             <router-link to="/termsofuse">Terms</router-link>
             <router-link to="/privacy">Privacy</router-link>
-            <router-link to="/bug-bounty">Request for Proposals</router-link>
+            <router-link to="/proposals">Request for Proposals</router-link>
             <router-link to="/guidelines">Brand Guidelines</router-link>
             <a href="https://cmcx.io/">Contribution</a>
             <a
@@ -403,9 +403,17 @@
               >Security Audited by CERTIK</a
             >
           </div>
+
           <a href="#main" v-smooth-scroll class="btnUp">
             Up
           </a>
+        </div>
+        <div class="footer__last_after">
+          <div class="footer__last-nav">
+            <router-link to="/your-voice">Your Voice Matter</router-link>
+            <router-link to="/support">Support</router-link>
+            <router-link to="/bug-bounty">Bug Bounty</router-link>
+          </div>
         </div>
       </div>
     </footer>
@@ -1029,5 +1037,14 @@ input:focus {
   .footer__main.start-page .container {
     padding: 0px 15px;
   }
+}
+</style>
+
+<style>
+.footer__last_after {
+  padding-bottom: 15px;
+}
+.footer__last_after .footer__last-nav {
+  margin-left: 372px;
 }
 </style>

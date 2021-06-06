@@ -154,7 +154,7 @@ export default {
     },
     handleRemove(file) {
       // let index = this.fileList.findIndex((file = file === this.file));
-      console.log(file, this.files);
+      console.log(file, this.fileList);
       this.fileList.splice(file, 1);
     },
     submitForm(ruleForm) {
