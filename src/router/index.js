@@ -16,6 +16,7 @@ import Blog from "../views/Blog.vue";
 import BugBounty from "../views/BugBounty.vue";
 import Support from "../views/Support.vue";
 import YourVoice from "../views/YourVoice.vue";
+import Academy from "../views/Academy.vue";
 
 Vue.use(VueRouter);
 
@@ -120,6 +121,12 @@ const routes = [
     path: "/your-voice",
     name: "YourVoice",
     component: YourVoice,
+    meta: { scrollToTop: true }
+  },
+  {
+    path: "/academy",
+    name: "Academy",
+    component: Academy,
     meta: { scrollToTop: true }
   }
 ];
