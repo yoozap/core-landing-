@@ -1,8 +1,11 @@
 <template>
-  <div class="body-container">
+  <div class="body-container academy-page">
     <AcademyMainContainer />
     <AcademyTopics />
     <AcademyReleases />
+    <AcademyTradingMaterials />
+    <AcademyEssentials />
+    <AcademyBlockchain />
   </div>
 </template>
 
@@ -10,13 +13,19 @@
 import AcademyMainContainer from "@/components/AcademyMainContainer.vue";
 import AcademyTopics from "@/components/AcademyTopics.vue";
 import AcademyReleases from "@/components/AcademyReleases.vue";
+import AcademyTradingMaterials from "@/components/AcademyTradingMaterials.vue";
+import AcademyEssentials from "@/components/AcademyEssentials.vue";
+import AcademyBlockchain from "@/components/AcademyBlockchain.vue";
 
 export default {
   name: "BugBounty",
   components: {
     AcademyMainContainer,
     AcademyTopics,
-    AcademyReleases
+    AcademyReleases,
+    AcademyTradingMaterials,
+    AcademyEssentials,
+    AcademyBlockchain
   }
 };
 </script>

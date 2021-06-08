@@ -1,12 +1,17 @@
 <template>
   <section class="container">
     <div class="releases_section">
-      <h2 class="releases_ttl font-51">Latest Releases</h2>
+      <div class="releases_head">
+        <h2 class="releases_ttl font-51">Essentials</h2>
+        <router-link to="#" class="releases_link"
+          >All Essentials Materials</router-link
+        >
+      </div>
       <div class="releases_container">
         <router-link
           to="#"
           class="release_item"
-          v-for="(release, index) in releases"
+          v-for="(release, index) in releases.slice(0, 3)"
           :key="index"
         >
           <div class="img_box">
@@ -81,7 +86,7 @@ export default {
     return {
       releases: [
         {
-          img: require("@/assets/img/releases/release 1.jpg"),
+          img: require("@/assets/img/releases/release 3.jpg"),
           title: "What is Solana (SOL)?",
           level: "beginner",
           date: "10 h ago",
@@ -99,7 +104,7 @@ export default {
           ]
         },
         {
-          img: require("@/assets/img/releases/release 2.jpg"),
+          img: require("@/assets/img/releases/release 4.jpg"),
           title: "How to Cancel or Replace a Pending Ethereum Transaction",
           level: "intermediate",
           date: "19 may 2021",
@@ -114,7 +119,7 @@ export default {
           ]
         },
         {
-          img: require("@/assets/img/releases/release 3.jpg"),
+          img: require("@/assets/img/releases/release 1.jpg"),
           title: "A Beginners Guide to Understanding Risk Management",
           level: "advanced",
           date: "19 may 2021",
@@ -132,7 +137,7 @@ export default {
           ]
         },
         {
-          img: require("@/assets/img/releases/release 4.jpg"),
+          img: require("@/assets/img/releases/release 2.jpg"),
           title: "7 Things You Should Know About NFTs",
           level: "beginner",
           date: "10 h ago",
@@ -182,25 +187,35 @@ export default {
   display: flex;
   flex-wrap: wrap;
 }
+.releases_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.releases_link {
+  padding: 7px 12px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.6s;
+}
+.releases_link:hover {
+  text-decoration-color: inherit;
+}
 .release_item {
   display: flex;
   flex-direction: column;
 }
-.release_item:nth-child(-n + 3) {
+.release_item {
   width: calc(33.3% - 27.3px);
   margin-right: 41px;
-  margin-bottom: 51px;
+  /* margin-bottom: 51px; */
 }
-.release_item:nth-child(3) {
+.release_item:nth-child(3n) {
   margin-right: 0;
 }
-.release_item:nth-child(4) {
-  width: calc(66.6% - 13.6px);
-  margin-right: 41px;
-}
-.release_item:nth-child(5) {
-  width: calc(33.3% - 27.3px);
-}
+
 .img_box {
   position: relative;
   /* padding-top: 65.16%; */

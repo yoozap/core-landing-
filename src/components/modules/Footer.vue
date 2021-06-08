@@ -546,7 +546,8 @@ export default {
 }
 .home-page ~ .footer__main .join_container.container,
 .community-page ~ .footer__main .join_container.container,
-.proposal-page ~ .footer__main .join_container.container {
+.proposal-page ~ .footer__main .join_container.container,
+.academy-page ~ .footer__main .join_container.container {
   display: flex;
 }
 .footer__last-nav a {
@@ -852,7 +853,7 @@ input:focus {
     margin-bottom: 13px;
   }
   .container {
-    padding-left: 255px;
+    padding-left: 250px;
     flex-direction: column;
   }
   footer {
