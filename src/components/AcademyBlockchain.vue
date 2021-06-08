@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" data-aos="fade-up">
     <div class="releases_section blockchain">
       <div class="releases_head">
         <h2 class="releases_ttl font-51">Blockchain</h2>

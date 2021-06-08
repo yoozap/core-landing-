@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" data-aos="fade-up">
     <div class="topics_section">
       <h2 class="topics-ttl">Explore Our Topics</h2>
       <div class="topics_container">
