@@ -10,8 +10,10 @@
           <div class="paper__items-text">Version 0.1 — Draft for community review</div>
         </div>
         <div class="paper__items-right">
-          <a href="##" target="_blank" class="paper__button">Download</a>
-          <div class="paper__button-text">PDF, 14 MB</div>
+          <div class="paper__items-right-in">
+            <a href="##" target="_blank" class="paper__button">Download</a>
+            <div class="paper__button-text">PDF, 14 MB</div>
+          </div>
         </div>
       </div>
     </div>
@@ -30,6 +32,12 @@
   }
 </script>
 <style scoped>
+  .paper__items-right-in{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
   .paper__bg{
     position: absolute;
     top: 0px;
@@ -48,7 +56,8 @@
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
-    align-items: center;
+    width: 50%;
+    align-items: flex-start;
   }
   .paper__button{
     height: 52px;
@@ -93,6 +102,9 @@
   }
   /*Laptop*/
   @media (max-width: 1900px){
+    .paper__items-right{
+      width: auto;
+    }
   }
   /*Ipad 1024*/
   @media (max-width: 1365px){
