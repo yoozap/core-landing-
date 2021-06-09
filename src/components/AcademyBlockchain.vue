@@ -181,6 +181,7 @@ export default {
 <style scoped>
 .releases_section {
   margin-top: 100px;
+  max-width: 1072px;
 }
 .releases_section.blockchain {
   margin-bottom: 100px;
@@ -257,6 +258,9 @@ export default {
 .release_minutes {
   display: flex;
   align-items: center;
+}
+.release_lvl,
+.release_time {
   margin-right: 16px;
 }
 .lvl_circle {
@@ -293,5 +297,65 @@ export default {
   color: #00050f;
   cursor: pointer;
   transition: 0.6s;
+}
+
+@media (max-width: 1200px) {
+  .releases_section {
+    max-width: 752px;
+  }
+  .release_item {
+    width: calc(50% - 15px);
+    margin-right: 0;
+  }
+  .release_item:nth-child(odd) {
+    margin-right: 30px;
+  }
+  .release_item:nth-child(n + 3) {
+    display: none;
+  }
+  .release_lvl,
+  .release_time {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1023px) {
+  .releases_section {
+    margin-top: 70px;
+  }
+  .releases_container {
+    margin-top: 30px;
+  }
+  .release_ttl {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .topic,
+  .release-bottom__details * {
+    font-size: 10px;
+  }
+  .topic {
+    padding: 4px 8px;
+  }
+}
+@media (max-width: 620px) {
+  .releases_head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .releases_link {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .releases_section {
+    margin-top: 50px;
+  }
+  .release_item {
+    width: 100%;
+  }
+  .release_item:nth-child(odd) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
 }
 </style>

@@ -413,6 +413,7 @@
             <router-link to="/your-voice">Your Voice Matter</router-link>
             <router-link to="/support">Support</router-link>
             <router-link to="/bug-bounty">Bug Bounty</router-link>
+            <router-link to="/academy">Academy</router-link>
           </div>
         </div>
       </div>
@@ -1047,5 +1048,10 @@ input:focus {
 }
 .footer__last_after .footer__last-nav {
   margin-left: 372px;
+}
+@media (max-width: 1023px) {
+  .footer__last_after {
+    display: none;
+  }
 }
 </style>

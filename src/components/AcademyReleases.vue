@@ -176,6 +176,7 @@ export default {
 <style scoped>
 .releases_section {
   margin-top: 100px;
+  max-width: 1072px;
 }
 .releases_container {
   margin-top: 48px;
@@ -239,6 +240,9 @@ export default {
 .release_minutes {
   display: flex;
   align-items: center;
+}
+.release_lvl,
+.release_time {
   margin-right: 16px;
 }
 .lvl_circle {
@@ -275,5 +279,67 @@ export default {
   color: #00050f;
   cursor: pointer;
   transition: 0.6s;
+}
+
+@media (max-width: 1200px) {
+  .releases_section {
+    max-width: 752px;
+  }
+  .release_item:nth-child(-n + 4) {
+    width: calc(50% - 15px);
+    margin-bottom: 40px;
+  }
+  .release_item:nth-child(-n + 3) {
+    margin-right: 0;
+  }
+  .release_item:nth-child(odd) {
+    margin-right: 30px;
+  }
+  .release_item:nth-child(4) {
+    margin-right: 0;
+  }
+  .release_item:last-child {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .release_lvl,
+  .release_time {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1023px) {
+  .releases_section {
+    margin-top: 70px;
+  }
+  .releases_container {
+    margin-top: 30px;
+  }
+  .release_item:nth-child(-n + 4) {
+    margin-bottom: 30px;
+  }
+  .release_ttl {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .topic,
+  .release-bottom__details * {
+    font-size: 10px;
+  }
+  .topic {
+    padding: 4px 8px;
+  }
+}
+@media (max-width: 620px) {
+  .releases_section {
+    margin-top: 50px;
+  }
+  .release_item:nth-child(-n + 4) {
+    width: 100%;
+  }
+  .release_item:nth-child(odd) {
+    margin-right: 0px;
+  }
 }
 </style>

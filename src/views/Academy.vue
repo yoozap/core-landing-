@@ -4,6 +4,7 @@
     <AcademyTopics />
     <AcademyReleases />
     <AcademyTradingMaterials />
+    <AcademyTopics />
     <AcademyEssentials />
     <AcademyBlockchain />
   </div>

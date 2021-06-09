@@ -88,4 +88,22 @@ export default {
   background: #fff;
   color: #00050f;
 }
+
+@media (max-width: 1300px) {
+  .topics_container {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .topics_container {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topics_container {
+    padding-right: 0px;
+  }
+}
 </style>
