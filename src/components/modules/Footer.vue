@@ -396,6 +396,7 @@
             <router-link to="/privacy">Privacy</router-link>
             <router-link to="/proposals">Request for Proposals</router-link>
             <router-link to="/guidelines">Brand Guidelines</router-link>
+            <router-link to="/#paper">Core Paper</router-link>
             <a href="https://cmcx.io/">Contribution</a>
             <a
               href="https://www.certik.org/projects/coremultichain"
@@ -408,7 +409,7 @@
             Up
           </a>
         </div>
-        <div class="footer__last_after">
+        <div class="footer__last_after" v-if="false">
           <div class="footer__last-nav">
             <router-link to="/your-voice">Your Voice Matter</router-link>
             <router-link to="/support">Support</router-link>
@@ -460,7 +461,17 @@ export default {
           title: "Tokenomics",
           route: "/tokenomics"
         }
-      ]
+      ],
+      paper: {
+        id:6,
+        route: {
+          name: 'Paper',
+          params: {
+            id: this.$route.params.id
+          },
+          hash: '#paper'
+        }
+      }
     };
   },
   mounted() {
