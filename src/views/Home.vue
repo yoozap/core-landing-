@@ -11,6 +11,7 @@
     <UseCases :itemData="$store.state.cases"/>
     <Developers/>
     <Statistic :statData="$store.state.statistic"/>
+    <Paper/>
     <Faq :itemData="$store.state.faq"/>
     <CommunityPopup :itemData="$store.state.community"/>
   </div>
@@ -30,6 +31,7 @@ import TextContainer from '../components/TextContainer'
 import Frameworks from '../components/Frameworks'
 import Generation from '../components/Generation'
 import Developers from '../components/Developers'
+import Paper from '../components/Paper'
 
 export default {
   name: 'Home',
@@ -46,7 +48,8 @@ export default {
     Community,
     CommunityPopup,
     Faq,
-    About
+    About,
+    Paper
   }
 }
 </script>
