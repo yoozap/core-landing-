@@ -415,6 +415,7 @@
             <router-link to="/support">Support</router-link>
             <router-link to="/bug-bounty">Bug Bounty</router-link>
             <router-link to="/academy">Academy</router-link>
+            <router-link to="/article">Article</router-link>
           </div>
         </div>
       </div>
@@ -463,13 +464,13 @@ export default {
         }
       ],
       paper: {
-        id:6,
+        id: 6,
         route: {
-          name: 'Paper',
+          name: "Paper",
           params: {
             id: this.$route.params.id
           },
-          hash: '#paper'
+          hash: "#paper"
         }
       }
     };
