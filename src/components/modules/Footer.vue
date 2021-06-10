@@ -548,7 +548,8 @@ export default {
 .home-page ~ .footer__main .join_container.container,
 .community-page ~ .footer__main .join_container.container,
 .proposal-page ~ .footer__main .join_container.container,
-.academy-page ~ .footer__main .join_container.container {
+.academy-page ~ .footer__main .join_container.container,
+.article-page ~ .footer__main .join_container.container {
   display: flex;
 }
 .footer__last-nav a {

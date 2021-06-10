@@ -1,12 +1,7 @@
 <template>
   <section class="container" data-aos="fade-up">
     <div class="releases_section">
-      <div class="releases_head">
-        <h2 class="releases_ttl font-51">Essentials</h2>
-        <router-link to="#" class="releases_link"
-          >All Essentials Materials</router-link
-        >
-      </div>
+      <h2 class="releases_ttl font-51">Explore more</h2>
       <div class="releases_container">
         <router-link
           to="#"
@@ -180,29 +175,16 @@ export default {
 
 <style scoped>
 .releases_section {
-  margin-top: 100px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
   max-width: 1072px;
 }
 .releases_container {
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
-}
-.releases_head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.releases_link {
-  padding: 7px 12px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.1);
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  transition: 0.6s;
-}
-.releases_link:hover {
-  text-decoration-color: inherit;
 }
 .release_item {
   display: flex;
@@ -300,7 +282,12 @@ export default {
   cursor: pointer;
   transition: 0.6s;
 }
-
+@media (max-width: 1300px) {
+  .text h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 @media (max-width: 1200px) {
   .releases_section {
     max-width: 752px;
@@ -322,7 +309,9 @@ export default {
 }
 @media (max-width: 1023px) {
   .releases_section {
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 70px;
   }
   .releases_container {
     margin-top: 30px;
@@ -341,16 +330,9 @@ export default {
   }
 }
 @media (max-width: 620px) {
-  .releases_head {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .releases_link {
-    margin-top: 10px;
-    font-size: 12px;
-  }
   .releases_section {
     margin-top: 50px;
+    padding-top: 50px;
   }
   .release_item {
     width: 100%;
