@@ -133,15 +133,15 @@ const routes = [
     meta: { scrollToTop: true }
   },
   {
-<<<<<<< HEAD
-    path: "/login",
-    name: "Login",
-    component: Login,
-=======
     path: "/article",
     name: "Article",
     component: Article,
->>>>>>> 9617cb5dc92bbc0d4f8bd8fe00d56564859a7cdb
+    meta: { scrollToTop: true }
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
     meta: { scrollToTop: true }
   }
 ];
