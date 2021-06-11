@@ -232,6 +232,7 @@ export default {
   position: relative;
   /* padding-top: 65.16%; */
   height: 230px;
+  overflow: hidden;
 }
 .img_absolute {
   position: absolute;
@@ -240,6 +241,10 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: 0.6s;
+}
+.release_item:hover img {
+  transform: scale(1.1);
 }
 .release_details {
   display: flex;

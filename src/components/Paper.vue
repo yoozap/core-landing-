@@ -12,7 +12,7 @@
         <div class="paper__items-right">
           <div class="paper__items-right-in">
             <a href="/docs/core-paper.pdf" target="_blank" class="paper__button">Download</a>
-            <div class="paper__button-text">PDF, 14 MB</div>
+            <div class="paper__button-text">PDF, 71 MB</div>
           </div>
         </div>
       </div>

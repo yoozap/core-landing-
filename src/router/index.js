@@ -18,6 +18,7 @@ import Support from "../views/Support.vue";
 import YourVoice from "../views/YourVoice.vue";
 import Academy from "../views/Academy.vue";
 import Login from "../views/Login.vue";
+import Article from "../views/Article.vue";
 
 Vue.use(VueRouter);
 
@@ -132,9 +133,15 @@ const routes = [
     meta: { scrollToTop: true }
   },
   {
+<<<<<<< HEAD
     path: "/login",
     name: "Login",
     component: Login,
+=======
+    path: "/article",
+    name: "Article",
+    component: Article,
+>>>>>>> 9617cb5dc92bbc0d4f8bd8fe00d56564859a7cdb
     meta: { scrollToTop: true }
   }
 ];

@@ -415,6 +415,7 @@
             <router-link to="/support">Support</router-link>
             <router-link to="/bug-bounty">Bug Bounty</router-link>
             <router-link to="/academy">Academy</router-link>
+            <router-link to="/article">Article</router-link>
           </div>
         </div>
       </div>
@@ -463,13 +464,13 @@ export default {
         }
       ],
       paper: {
-        id:6,
+        id: 6,
         route: {
-          name: 'Paper',
+          name: "Paper",
           params: {
             id: this.$route.params.id
           },
-          hash: '#paper'
+          hash: "#paper"
         }
       }
     };
@@ -559,7 +560,8 @@ export default {
 .home-page ~ .footer__main .join_container.container,
 .community-page ~ .footer__main .join_container.container,
 .proposal-page ~ .footer__main .join_container.container,
-.academy-page ~ .footer__main .join_container.container {
+.academy-page ~ .footer__main .join_container.container,
+.article-page ~ .footer__main .join_container.container {
   display: flex;
 }
 .footer__last-nav a {
