@@ -396,7 +396,7 @@
             <router-link to="/privacy">Privacy</router-link>
             <router-link to="/proposals">Request for Proposals</router-link>
             <router-link to="/guidelines">Brand Guidelines</router-link>
-            <router-link to="/#paper">Core Paper</router-link>
+            <a href="/docs/core-paper.pdf" target="_blank">Core Paper</a>
             <a href="https://cmcx.io/">Contribution</a>
             <a
               href="https://www.certik.org/projects/coremultichain"
