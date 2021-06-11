@@ -17,8 +17,10 @@ import BugBounty from "../views/BugBounty.vue";
 import Support from "../views/Support.vue";
 import YourVoice from "../views/YourVoice.vue";
 import Academy from "../views/Academy.vue";
+import Login from "../views/Login.vue";
 
 Vue.use(VueRouter);
+
 
 const routes = [
   {
@@ -127,6 +129,12 @@ const routes = [
     path: "/academy",
     name: "Academy",
     component: Academy,
+    meta: { scrollToTop: true }
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
     meta: { scrollToTop: true }
   }
 ];

@@ -23,6 +23,12 @@ import Meta from "vue-meta";
 import CloudflareVideoPlayer from "vue-cloudflare-video-player";
 import Element from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+Vue.use(VueAxios, axios);
+axios.defaults.baseURL = 'http://cmcx.test';
+
+
 
 Vue.use(CloudflareVideoPlayer);
 Vue.use(Meta);
