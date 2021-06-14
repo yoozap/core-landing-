@@ -512,8 +512,8 @@ export default {
               url: "/about"
             },
             {
-              name: "Brand Guidlines",
-              url: "/guidlines"
+              name: "Brand Guidelines",
+              url: "/guidelines"
             },
             {
               name: "Privacy",
@@ -521,7 +521,7 @@ export default {
             },
             {
               name: "Terms",
-              url: "/terms"
+              url: "/termsofuse"
             }
           ]
         },
