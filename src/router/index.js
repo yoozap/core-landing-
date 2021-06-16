@@ -142,7 +142,10 @@ const routes = [
     path: "/login",
     name: "Login",
     component: Login,
-    meta: { scrollToTop: true }
+    meta: {
+      scrollToTop: true,
+      requiresAuth: true
+    }
   }
 ];
 
