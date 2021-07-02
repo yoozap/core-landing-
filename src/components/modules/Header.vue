@@ -154,7 +154,12 @@ export default {
           id: 5,
           title: 'Tokenomics',
           route: '/tokenomics'
-        },
+        }
+        // {
+        //   id: 6,
+        //   title: 'FAQ',
+        //   route: '/faq'
+        // },
         // {
         //   id: 6,
         //   title: 'Wiki',

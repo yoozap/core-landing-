@@ -21,13 +21,13 @@
     },
     created () {
       // this.login();
-      this.test()
+      // this.test()
     },
     methods: {
       login () {
         axios.defaults.headers.common['Authorization'] = 'Bearer ' + this.$store.state.token;
         return new Promise((resolve,reject) => {
-          axios.post('/api/login', {
+          axios.post('http://cmcx.test/api/login', {
             username: this.username,
             password: this.password,
             secret: this.secret
@@ -53,17 +53,6 @@
               // List errors on response...
             });
         });
-      },
-      test () {
-        return new Promise((resolve,reject) => {
-          axios.get('api/stage?secret=5ukFujjovuwDZOP0IRzNRet5', {})
-            .then(response => {
-              console.log(response);
-            })
-            .catch(response => {
-              // List errors on response...
-            });
-        })
       }
 
     }

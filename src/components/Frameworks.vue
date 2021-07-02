@@ -300,6 +300,9 @@ export default {
   }
   /*Ipad 1024*/
   @media (max-width: 1365px){
+      .frameworks-container__frameworks-tabs-container{
+          width: 50%;
+      }
     .frameworks-container__inner{
       padding-bottom: 60px;
     }
@@ -368,6 +371,9 @@ export default {
   }
   /*Mobile 320*/
   @media (max-width: 767px){
+      .frameworks-container__frameworks-tabs-container{
+          width: 100%;
+      }
     .frameworks-container__title-bottom {
       font-size: 11px;
       line-height: 18px;

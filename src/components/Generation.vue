@@ -1,6 +1,8 @@
 <template>
   <div class="generation-outer">
-    <img :src="require(`@/assets/img/generation.jpg`)" alt="" class="generation-outer__image">
+      <div class="generation-outer__image">
+          <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/generation.jpg`)" alt="" class="generation-outer__image-inner">
+      </div>
     <div class="container">
       <div class="generation-container">
         <h2 class="generation-container__title font-51" data-aos="fade-up">We are a New Generation</h2>
@@ -173,6 +175,16 @@ export default {
     width: calc(100% + 210px);
     height: 100%;
     object-fit: cover;
+      overflow: hidden;
+  }
+  .generation-outer__image-inner{
+      width: 100%;
+      height: 120%;
+      top: -10%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: absolute;
+      right: 0px;
   }
   .generation-outer{
     position: relative;
@@ -281,6 +293,9 @@ export default {
     }
     .generation-container__item-link{
       margin-bottom: 15px;
+    }
+    .generation-outer .container{
+        overflow: hidden;
     }
   }
   /*Ipad 768*/

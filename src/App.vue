@@ -5,6 +5,7 @@
     <router-view />
     <Footer />
     <VideoContainer />
+    <Success/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from "./components/modules/Header";
 import Footer from "./components/modules/Footer";
 import EmailPopup from "./components/EmailPopup";
 import VideoContainer from "./components/VideoContainer";
+import Success from "./components/Success";
 import { mapGetters } from "vuex";
 
 export default {
@@ -25,7 +27,8 @@ export default {
     EmailPopup,
     Header,
     Footer,
-    VideoContainer
+    VideoContainer,
+    Success
   },
   computed: {
     ...mapGetters({

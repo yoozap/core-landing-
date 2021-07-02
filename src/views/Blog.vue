@@ -10,7 +10,7 @@
             :class="{banner: blog.banner == 'true'}"
             v-for="(blog,index) in itemData" :key="index">
               <div class="blog__content">
-                <a href="#" class="blog__link" v-if="blog.banner == 'false'">{{blog.title}}</a>
+                <router-link :to="{ path: 'blog', name: 'BlogInner', params: { blogId: blog.id }}" class="blog__link" v-if="blog.banner == 'false'">{{blog.title}}</router-link>
                 <h3 class="blog__link" v-if="blog.banner == 'true'">{{blog.title}}</h3>
                 <p class="blog__text">
                   {{blog.text}}

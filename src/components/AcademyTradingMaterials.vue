@@ -9,17 +9,19 @@
       </div>
       <div class="releases_container">
         <router-link
-          to="#"
+          to="##"
           class="release_item"
-          v-for="(release, index) in releases"
+          v-for="(release, index) in itemData"
           :key="index"
+          @click.native="openSuccess"
+          v-if="filterItems(release.topics)"
         >
           <div class="img_box">
-            <img :src="release.img" alt="" class="img_absolute" />
+              <img :src="require(`@/assets/img/releases/${release.img}`)" alt="" class="img_absolute" />
             <div class="item_topics">
               <div
                 class="topic"
-                v-for="(topic, index) in release.topics"
+                v-for="(topic, index) in itemData.topics"
                 :key="index"
               >
                 {{ topic.name }}
@@ -43,7 +45,7 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0)">
+                  <g>
                     <path
                       d="M12.25 1.75H11.6667V0.583298C11.6667 0.261368 11.4053 0 11.0833 0H10.5C10.178 0 9.9167 0.261368 9.9167 0.583298V1.75H4.0833V0.583298C4.0833 0.261368 3.82204 0 3.5 0H2.9167C2.59467 0 2.3333 0.261368 2.3333 0.583298V1.75H1.75C0.785172 1.75 0 2.53517 0 3.5V12.25C0 13.2148 0.785172 14 1.75 14H12.25C13.2148 14 14 13.2148 14 12.25V3.5C14 2.53517 13.2148 1.75 12.25 1.75ZM12.8333 12.25C12.8333 12.5714 12.5714 12.8333 12.25 12.8333H1.75C1.4286 12.8333 1.1667 12.5714 1.1667 12.25V5.85669H12.8333V12.25Z"
                       fill="white"
@@ -82,99 +84,33 @@
 
 <script>
 export default {
+    props: {
+        itemData: {
+            type: Array
+        }
+    },
   data() {
     return {
-      releases: [
-        {
-          img: require("@/assets/img/releases/release 3.jpg"),
-          title: "What is Solana (SOL)?",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 4.jpg"),
-          title: "How to Cancel or Replace a Pending Ethereum Transaction",
-          level: "intermediate",
-          date: "19 may 2021",
-          minutes: "4",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 1.jpg"),
-          title: "A Beginners Guide to Understanding Risk Management",
-          level: "advanced",
-          date: "19 may 2021",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 2.jpg"),
-          title: "7 Things You Should Know About NFTs",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 1.jpg"),
-          title: "What is Solana (SOL)?",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        }
-      ]
     };
-  }
+  },
+    methods: {
+        openSuccess () {
+            this.$store.commit('setPageSuccess', true)
+        },
+        filterItems(topics){
+            let findTopic = false;
+            for(let i = 0; i < topics.length;i++){
+                if(topics[i].name == this.$store.state.firstTopic || this.$store.state.firstTopic == null){
+                    findTopic = true
+                }
+            }
+            if(findTopic == true){
+                return true
+            }else{
+                return false
+            }
+        }
+    }
 };
 </script>
 
@@ -182,11 +118,13 @@ export default {
 .releases_section {
   margin-top: 100px;
   max-width: 1072px;
+    width: 100%;
 }
 .releases_container {
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
+    width: 100%;
 }
 .releases_head {
   display: flex;

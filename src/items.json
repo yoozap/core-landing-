@@ -197,6 +197,116 @@
       "answer": "There are many ways that you can support the CORE project such as join our Ambassador program, host CORE-related events in your community, or become a part of our online community. Join us on all social media platforms!"
     }
   ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "CORE Whitepaper",
+      "links": [
+        {
+          "url": "#",
+          "text": "download pdf file"
+        },
+        {
+          "url": "#",
+          "text": "documentation"
+        }
+      ],
+      "teaser": "CORE is Multi Chain PoS Network focused on Interoperability, Scalability and Usability.\nIt utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance. <br/><br/> It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing.\nThese technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.\n"
+    },
+    {
+      "id": 2,
+      "title": "CORE FAQ",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "CORE is a solution to all of the current major blockchain problems, namely usability, scalability, throughput, security, and interoperability. CORE solves these issues through its combination of an AI controlled consensus protocol, it's blockchain sharding layer, and its simplified cross-chain communication.\n"
+    },
+    {
+      "id": 3,
+      "title": "Cosmos Token Model (PDF)",
+      "links": [
+      ],
+      "teaser": "CORE is community driven and relies on its community members for its continuous development. These members include current and future academics, developers, and engineers present in the CORE community.\n"
+    },
+    {
+      "id": 4,
+      "title": "some title",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        },
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "It is difficult to give a specific limit as to how many chains can be connected to the CORE network. Currently, all of the major public chains and all CORE linked chains can be connected to the network. CORE's optimized and scalable protocol allows for several hundreds, if not thousands, of chain connections to be made to its framework. Future advancements to the protocol may even increase the upper bound on the limit of connected chains as CORE aims to become the internet of blockchains.\n"
+    },
+    {
+      "id": 5,
+      "title": "some title",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        },
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "CORE is able to increase the throughput speed of current blockchain technology linearly through a combination of sharding, pipelining, and its multilayer technology into one cross-shard and cross-chain communication protocol. The protocol is able to take the large number of transactions from a large ecosystem and split them into smaller ecosystems. These smaller ecosystems are then able to process the transactions in parallel to each other and simultaneously communicate live updates to the other ecosystems. These ecosystems are directly correlated to the size of CORE's community. So, as the community grows the ecosystems will grow, resulting in faster throughput of larger volumes.\n"
+    },
+    {
+      "id": 6,
+      "title": "some title",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        },
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "Of course! We can't be a community driven project without making our project open source. Besides that, we believe that there is power in numbers, and that it would benefit the CORE project by not only building a project that incorporates our community's ideology but that also utilizes the exciting intellectual power and skillsets that our community has to offer.\n"
+    },
+    {
+      "id": 7,
+      "title": "some title",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        },
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "CORE is open source and community centric. We welcome new community members with open arms. Whether it is just to keep up to date with CORE's exciting progress or to contribute to its online platforms, we'd love to hear from you and have you be a part of our growing community!\n"
+    },
+    {
+      "id": 8,
+      "title": "some title",
+      "links": [
+        {
+          "url": "#",
+          "text": "link text"
+        },
+        {
+          "url": "#",
+          "text": "link text"
+        }
+      ],
+      "teaser": "There are many ways that you can support the CORE project such as join our Ambassador program, host CORE-related events in your community, or become a part of our online community. Join us on all social media platforms!"
+    }
+  ],
   "community":[
     {
       "id": 1,
@@ -486,7 +596,8 @@
       ]
     }
   ],
-  "blog": [
+  "__comment to bloh__": "to make editor content ,convert html to one line string in https://codebeautify.org/html-to-json-converter",
+   "blog": [
     {
       "id": 1,
       "banner": "false",
@@ -494,7 +605,8 @@
       "title": "Gain Privacy with the Encrypted Blob",
       "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
       "date": "February 23, 2021",
-      "img": ""
+      "img": "",
+      "editor": "<h1>blog first </h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     },
     {
       "id": 2,
@@ -503,7 +615,8 @@
       "title": "Reveal Confidential Transactions with Blockstream Explorer",
       "text": "With the most recent updates to Blockstream Explorer and Blockstream Green, you can now “unblind” any transaction (reveal the asset...",
       "date": "February 3, 2021",
-      "img": ""
+      "img": "",
+      "editor": "<h1>blog second</h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     },
     {
       "id": 3,
@@ -512,7 +625,8 @@
       "title": "Gain Privacy with the Encrypted Blob",
       "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
       "date": "February 23, 2021",
-      "img": ""
+      "img": "",
+      "editor": "<h1>glog forth</h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     },
     {
       "id": 4,
@@ -521,7 +635,8 @@
       "title": "Gain Privacy with the Encrypted Blob",
       "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
       "date": "February 23, 2021",
-      "img": ""
+      "img": "",
+      "editor": "<h1>blog fifth</h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     },
     {
       "id": 5,
@@ -530,7 +645,8 @@
       "title": "Gain Privacy with the Encrypted Blob",
       "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
       "date": "February 23, 2021",
-      "img": "@/assets/img/tab1.jpg"
+      "img": "@/assets/img/tab1.jpg",
+      "editor": "<h1>blog 6</h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     },
     {
       "id": 6,
@@ -539,8 +655,364 @@
       "title": "Gain Privacy with the Encrypted Blob",
       "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
       "date": "February 23, 2021",
-      "img": ""
+      "img": "",
+      "editor": "<h1>blog 7</h1><br><br><br><p>Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.</p><br><br><br><img src='/img/release 2.883fd07b.jpg'><br><br><h2>introduction</h2><br><p>First of all, keep in mind that you cannot replace, revert or cancel transactions that have already been confirmed. However, during periods of network congestion, some cryptocurrency transactions may get stuck. When the volume of transactions is too high, you could find yourself with a transaction pending for hours or even days. In this guide, we will show you how to speed up transactions using MetaMask or Trust Wallet. You could also use other crypto wallets that support the Ethereum blockchain, but the process might be slightly different.</p><br><br><br><h2>Requirements</h2><br><ul><li>MetaMask or Trust Wallet installed.</li><li>Private keys (seed phrase) to log in to your Ethereum wallet.</li><li>Internet access.</li></ul><br><br><h2>How to speed up a transaction on MetaMask</h2><br><br><ol><li>Log in to your MetaMask wallet that has the pending transaction. If it's an external wallet, you need to import the address using the corresponding seed phrase or private key.</li><li>Find the pending transaction under the [Activity] tab and click on [Speed Up].</li><li>This process will allow you to broadcast your transaction again. Make sure to use a higher gas price by clicking on [Fast] and then [Save].</li><li>If the previous step didn't work, you could also go to the [Advanced] tab to set the gas price manually. You can check the current gas prices and average confirmation time on Etherscan or EthGasStation.</li></ol>"
     }
-  ]
+  ],
+    "academy": {
+        "releases": [
+            {
+                "img": "release 1.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "cmcx"
+                    },
+                    {
+                        "name": "consensus"
+                    }
+                ]
+            },
+            {
+                "img": "release 2.jpg",
+                "title": "How to Cancel or Replace a Pending Ethereum Transaction",
+                "level": "intermediate",
+                "date": "19 may 2021",
+                "minutes": "4",
+                "topics": [
+                    {
+                        "name": "consensus"
+                    },
+                    {
+                        "name": "wallet"
+                    }
+                ]
+            },
+            {
+                "img": "release 3.jpg",
+                "title": "A Beginners Guide to Understanding Risk Management",
+                "level": "advanced",
+                "date": "19 may 2021",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 4.jpg",
+                "title": "7 Things You Should Know About NFTs",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            }
+        ],
+        "trading": [
+            {
+                "img": "release 3.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 4.jpg",
+                "title": "How to Cancel or Replace a Pending Ethereum Transaction",
+                "level": "intermediate",
+                "date": "19 may 2021",
+                "minutes": "4",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "A Beginners Guide to Understanding Risk Management",
+                "level": "advanced",
+                "date": "19 may 2021",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 2.jpg",
+                "title": "7 Things You Should Know About NFTs",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            }
+        ],
+        "essentials": [
+            {
+                "img": "release 3.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 4.jpg",
+                "title": "How to Cancel or Replace a Pending Ethereum Transaction",
+                "level": "intermediate",
+                "date": "19 may 2021",
+                "minutes": "4",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "A Beginners Guide to Understanding Risk Management",
+                "level": "advanced",
+                "date": "19 may 2021",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 2.jpg",
+                "title": "7 Things You Should Know About NFTs",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            }
+        ],
+        "blockchain": [
+            {
+                "img": "release 3.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 4.jpg",
+                "title": "How to Cancel or Replace a Pending Ethereum Transaction",
+                "level": "intermediate",
+                "date": "19 may 2021",
+                "minutes": "4",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "A Beginners Guide to Understanding Risk Management",
+                "level": "advanced",
+                "date": "19 may 2021",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 2.jpg",
+                "title": "7 Things You Should Know About NFTs",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            },
+            {
+                "img": "release 1.jpg",
+                "title": "What is Solana (SOL)?",
+                "level": "beginner",
+                "date": "10 h ago",
+                "minutes": "8",
+                "topics": [
+                    {
+                        "name": "security"
+                    },
+                    {
+                        "name": "wallet"
+                    },
+                    {
+                        "name": "tutorials"
+                    }
+                ]
+            }
+        ]
+    }
 }
 

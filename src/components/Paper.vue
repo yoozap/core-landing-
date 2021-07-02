@@ -1,6 +1,8 @@
 <template>
   <div class="container" id="paper" data-aos="fade-up">
-    <img :src="require(`@/assets/img/paper-bg.png`)" alt="" class="paper__bg">
+      <div class="paper__bg">
+          <img v-prlx="{ speed: 0.1 }" :src="require(`@/assets/img/paper-bg.png`)" alt="" class="paper__bg-img">
+      </div>
     <div class="paper__inner">
       <h3 class="medium font-51"><span>CORE</span> Paper</h3>
       <div class="paper__items">
@@ -37,6 +39,15 @@
     align-items: center;
     flex-direction: column;
     display: flex;
+  }
+  .paper__bg img {
+      width: 100%;
+      height: 120%;
+      top: -10%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: absolute;
+      right: 0px;
   }
   .paper__bg{
     position: absolute;

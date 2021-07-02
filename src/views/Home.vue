@@ -6,6 +6,7 @@
     <Community :itemData="$store.state.community"/>
     <LottieContainer/>
     <Frameworks :itemData="$store.state.tabs"/>
+    <Cmcx/>
     <About/>
     <Generation/>
     <UseCases :itemData="$store.state.cases"/>
@@ -32,6 +33,7 @@ import Frameworks from '../components/Frameworks'
 import Generation from '../components/Generation'
 import Developers from '../components/Developers'
 import Paper from '../components/Paper'
+import Cmcx from '../components/Cmcx'
 
 export default {
   name: 'Home',
@@ -49,7 +51,8 @@ export default {
     CommunityPopup,
     Faq,
     About,
-    Paper
+    Paper,
+    Cmcx
   }
 }
 </script>

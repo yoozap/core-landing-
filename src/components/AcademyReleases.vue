@@ -4,13 +4,15 @@
       <h2 class="releases_ttl font-51">Latest Releases</h2>
       <div class="releases_container">
         <router-link
-          to="#"
+          to="##"
           class="release_item"
-          v-for="(release, index) in releases"
+          v-for="(release, index) in itemData"
           :key="index"
+          @click.native="openSuccess"
+          v-if="filterItems(release.topics)"
         >
           <div class="img_box">
-            <img :src="release.img" alt="" class="img_absolute" />
+            <img :src="require(`@/assets/img/releases/${release.img}`)" alt="" class="img_absolute" />
             <div class="item_topics">
               <div
                 class="topic"
@@ -77,99 +79,34 @@
 
 <script>
 export default {
+    props: {
+        itemData: {
+            type: Array
+        }
+    },
   data() {
     return {
-      releases: [
-        {
-          img: require("@/assets/img/releases/release 1.jpg"),
-          title: "What is Solana (SOL)?",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 2.jpg"),
-          title: "How to Cancel or Replace a Pending Ethereum Transaction",
-          level: "intermediate",
-          date: "19 may 2021",
-          minutes: "4",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 3.jpg"),
-          title: "A Beginners Guide to Understanding Risk Management",
-          level: "advanced",
-          date: "19 may 2021",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 4.jpg"),
-          title: "7 Things You Should Know About NFTs",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        },
-        {
-          img: require("@/assets/img/releases/release 1.jpg"),
-          title: "What is Solana (SOL)?",
-          level: "beginner",
-          date: "10 h ago",
-          minutes: "8",
-          topics: [
-            {
-              name: "security"
-            },
-            {
-              name: "wallet"
-            },
-            {
-              name: "tutorials"
-            }
-          ]
-        }
-      ]
+        filter: null
     };
-  }
+  },
+    methods: {
+        openSuccess () {
+            this.$store.commit('setPageSuccess', true)
+        },
+        filterItems(topics){
+            let findTopic = false;
+            for(let i = 0; i < topics.length;i++){
+                if(topics[i].name == this.$store.state.firstTopic || this.$store.state.firstTopic == null){
+                    findTopic = true
+                }
+            }
+            if(findTopic == true){
+                return true
+            }else{
+                return false
+            }
+        }
+    }
 };
 </script>
 
@@ -177,11 +114,13 @@ export default {
 .releases_section {
   margin-top: 100px;
   max-width: 1072px;
+    width: 100%;
 }
 .releases_container {
-  margin-top: 48px;
-  display: flex;
-  flex-wrap: wrap;
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .release_item {
   display: flex;

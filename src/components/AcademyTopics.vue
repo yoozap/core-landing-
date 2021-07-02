@@ -3,7 +3,7 @@
     <div class="topics_section">
       <h2 class="topics-ttl">Explore Our Topics</h2>
       <div class="topics_container">
-        <div class="topic" v-for="(topic, index) in topics" :key="index">
+        <div class="topic" v-for="(topic, index) in topics" :key="index" @click="setTopic(topic.name)" :class="[topicNumber == 1 && $store.state.firstTopic == topic.name ? 'active' : '',topicNumber == 2 && $store.state.secondTopic == topic.name ? 'active' : '']">
           {{ topic.name }}
         </div>
       </div>
@@ -13,6 +13,11 @@
 
 <script>
 export default {
+    props: {
+        topicNumber: {
+            type: Number
+        }
+    },
   data() {
     return {
       topics: [
@@ -51,7 +56,18 @@ export default {
         }
       ]
     };
-  }
+  },
+    methods: {
+        setTopic (name) {
+            if(this.topicNumber == 1){
+                this.$store.commit('setFirstTopic', name)
+            }
+            if(this.topicNumber == 2){
+                this.$store.commit('setSecondTopic', name)
+            }
+
+        }
+    }
 };
 </script>
 
