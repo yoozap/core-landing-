@@ -49,7 +49,6 @@ export default {
       } else {
         this.activeFaq = null
       }
-      console.log('hi')
     }
   }
 }

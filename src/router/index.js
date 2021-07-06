@@ -25,6 +25,7 @@ import Faq from "../views/Faq.vue";
 import BlogInner from "../views/BlogInner.vue";
 import BlogPage from "../views/BlogPage.vue";
 import Resources from "../views/Resources.vue";
+import Hackathon from "../views/Hackathon.vue";
 
 Vue.use(VueRouter);
 
@@ -187,7 +188,13 @@ const routes = [
         name: "Resources",
         component: Resources,
         meta: { scrollToTop: true }
-    }
+    },
+    {
+        path: "/hackathon",
+        name: "Hackathon",
+        component: Hackathon,
+        meta: { scrollToTop: true }
+    },
 ];
 
 const router = new VueRouter({

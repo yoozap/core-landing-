@@ -586,6 +586,10 @@ export default {
                         {
                             name: "Support Center",
                             url: "/support"
+                        },
+                        {
+                            name: "FAQ",
+                            url: "/faq"
                         }
                     ]
                 },
@@ -620,6 +624,10 @@ export default {
                         {
                             name: "Core Wiki",
                             url: "/wiki"
+                        },
+                        {
+                            name: "Hackathon",
+                            url: "/hackathon"
                         },
                         {
                             name: "Research Areas",
