@@ -542,10 +542,10 @@ export default {
                             name: "Brand Guidelines",
                             url: "/guidelines"
                         },
-                        {
-                            name: "Announcement",
-                            url: "/announcement"
-                        },
+                        // {
+                        //     name: "Announcement",
+                        //     url: "/announcement"
+                        // },
                         {
                             name: "Careers",
                             url: "/careers"
@@ -554,14 +554,14 @@ export default {
                             name: "Resources",
                             url: "/resources"
                         },
-                        {
-                            name: "Blog",
-                            url: "/blog"
-                        },
-                        {
-                            name: "Press",
-                            url: "/press"
-                        },
+                        // {
+                        //     name: "Blog",
+                        //     url: "/blog"
+                        // },
+                        // {
+                        //     name: "Press",
+                        //     url: "/press"
+                        // },
                         {
                             name: "Privacy",
                             url: "/privacy"
@@ -591,10 +591,10 @@ export default {
                             name: "Support Center",
                             url: "/support"
                         },
-                        {
-                            name: "FAQ",
-                            url: "/faq"
-                        }
+                        // {
+                        //     name: "FAQ",
+                        //     url: "/faq"
+                        // }
                     ]
                 },
                 {
@@ -621,22 +621,22 @@ export default {
                             name: "Tokenomics",
                             url: "/tokenomics"
                         },
-                        {
-                            name: "Academy",
-                            url: "/academy"
-                        },
-                        {
-                            name: "Core Wiki",
-                            url: "/wiki"
-                        },
-                        {
-                            name: "Hackathon",
-                            url: "/hackathon"
-                        },
-                        {
-                            name: "Gravity",
-                            url: "/gravity"
-                        },
+                        // {
+                        //     name: "Academy",
+                        //     url: "/academy"
+                        // },
+                        // {
+                        //     name: "Core Wiki",
+                        //     url: "/wiki"
+                        // },
+                        // {
+                        //     name: "Hackathon",
+                        //     url: "/hackathon"
+                        // },
+                        // {
+                        //     name: "Gravity",
+                        //     url: "/gravity"
+                        // },
                         {
                             name: "Research Areas",
                             url: "/research-areas"

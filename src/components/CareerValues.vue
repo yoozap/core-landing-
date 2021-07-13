@@ -41,7 +41,7 @@
             </div>
         </div>
         <div data-aos="fade-up" class="container career-qualities">
-            <h2 class="font-51">Qualities of a Hypercube Team:</h2>
+            <h2 class="font-51">Qualities of a CORE Team:</h2>
             <div class="career-qualities__text">
                 Communication while working remotely is as vital as oxygen. Continuous communication ensures project
                 goals our met and teams remain on track. Weekly meetings are held to discuss updates and monitor performance to keep our teams connected and moving forward as one global unit.

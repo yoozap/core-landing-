@@ -49,7 +49,7 @@
               </div>
               <div class="bottom__description-item">
                 <div class="bottom__description-ttl">Current Price:</div>
-                <div class="bottom__description-text">0.0062 USDT</div>
+                <div class="bottom__description-text">0.0066 USDT</div>
               </div>
             </div>
             <div class="bottom__description-floor">
