@@ -1,24 +1,26 @@
 <template>
   <section class="container">
     <div class="eligibility__container">
-      <div class="eligibility_head" data-aos="fade-up">
+      <div class="eligibility_head mb-100" data-aos="fade-up">
         <h2 class="font-51">Eligibility</h2>
         <div class="eligibility_description">
-          Vulnerabilities that typically would be eligible include,but
-          notlimited to:
+            Any bug that poses a serious vulnerability to the entire network, protocols, implementation, or security,
+            could be eligible for a reward. It is entirely at our discretion to decide whether a bug is serious and significant enough to be eligible.
         </div>
       </div>
+      <h3 class="eligibility-subtitle">Examples of Eligible Vulnerabilities:</h3>
       <ol class="eligibility_list" data-aos="fade-up">
         <li class="eligibility__list-item">
-          Serious vulnerabilities occurring in the production environment
+            Serious production environment vulnerabilities
         </li>
         <li class="eligibility__list-item">
-          Vulnerabilities that can cause a loss of user funds/assets remotely
+            Vulnerabilities that can cause remote
+            loss of user funds/assets
         </li>
-        <li class="eligibility__list-item">Privilege Escalation</li>
+        <li class="eligibility__list-item">Privilege escalation</li>
         <li class="eligibility__list-item">Code/SQL Injection</li>
         <li class="eligibility__list-item">
-          Cross-Site Request Forgery (CSRF)
+            Cross-Site Request Forgery (CSRF)
         </li>
         <li class="eligibility__list-item">Cross-Site Scripting (XSS)</li>
         <li class="eligibility__list-item">Remote Code Execution</li>
@@ -29,6 +31,11 @@
 </template>
 
 <style scoped>
+.eligibility-subtitle{
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
 .eligibility__container {
   margin-top: 140px;
   padding-right: 120px;

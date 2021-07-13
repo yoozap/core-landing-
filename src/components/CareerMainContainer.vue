@@ -25,13 +25,33 @@
                             </div>
                         </h1>
                     </div>
+                    <div class="career_how mt-100" data-aos="fade-up">
+                        <h2 class="font-51">
+                            How We Work
+                        </h2>
+                        <p>At CORE, our remote global team works together to accomplish a common objective. Our worldwide
+                            team enables the positive impact of our technology to infiltrate every corner of the world as we utilize
+                            the experience and feedback of our remote teams to improve and spread CORE.</p>
+                        <br>
+                        <br>
+                        <p>
+                            With team members located in over 40 different countries, CORE recruits internationally but allows team
+                            members to work locally. Whether you live in the middle of Shenzhen or on a Miami beach, work loca-tion is limited only by imagination.
+                        </p>
+                        <br>
+                        <br>
+                        <p>On our relentless pursuit to revolutionise the blockchain and distributed ledger industry, CORE aims to
+                            transcend the current limitations of blockchain technology and enable it to reach its true, unrealised potential. CORE intends to drastically improve blockchain interoperability, transaction processing, sustainability, and more! To achieve this, we will destroy the boundaries of innovation and stand at the forefront of blockchain and distributed ledger technology. Our purpose is to create a better decentralised
+                            future to benefit all, without boundaries.
+                        </p>
+                    </div>
                     <div class="career_head" data-aos="fade-up">
                         <h2 class="font-51">Our Values</h2>
                         <div class="career_description">
                             <p>
-                                Join our quest to increase the Freedom of Money.
+                                Our core values establish the framework for our ability to create a lasting, positive impact for humanity:
                             </p>
-                            <div class="description_text">
+                            <div class="description_text" v-if="false">
                                 We focus on you. By applying this principle in
                                 our daily work, we connect globally and continue
                                 to persevere.
@@ -69,6 +89,17 @@ export default {
 };
 </script>
 <style scoped>
+    .career_how{
+        padding-right: 350px;
+    }
+    .career_how h2{
+        margin-bottom: 30px;
+    }
+    .career_how p{
+        font-size: 20px;
+        line-height: 30px;
+        opacity: .5;
+    }
 .career__main-bg {
     width: 100%;
     height: 120%;
@@ -187,6 +218,9 @@ export default {
 
 /*Ipad Pro 1024*/
 @media (max-width: 1300px) {
+    .career_how{
+        padding-right: 0px;
+    }
     .main-container__description {
         padding-left: 25px;
     }

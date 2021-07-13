@@ -6,71 +6,70 @@
     </div>
     <div class="ineligibility__container">
       <div class="ineligibility__list-first">
+          <ul class="ineligibility_list mb-100" data-aos="fade-up">
+              <li class="ineligibility__list-item">
+                  Content spoofing
+              </li>
+              <li class="ineligibility__list-item">
+                  Cache-control related issues
+              </li>
+              <li class="ineligibility__list-item">
+                  Exposure of internal IP address or domains
+              </li>
+              <li class="ineligibility__list-item">
+                  Bugs already known or already reported
+                  by someone else (reward goes to first
+                  reporter)
+              </li>
+              <li class="ineligibility__list-item">
+                  Issues that are not reproducible
+              </li>
+              <li class="ineligibility__list-item">Email/SMS bomb</li>
+          </ul>
         <div class="ineligibility_head" data-aos="fade-up">
-          <h2 class="font-51">Ineligibility</h2>
-          <h3>Reports will be closed as out of scope:</h3>
-        </div>
+          <h3 class="font-30">Ineligible Submission Examples</h3>
+      </div>
 
         <ul class="ineligibility_list" data-aos="fade-up">
           <li class="ineligibility__list-item">
-            Theoretical vulnerabilities without POC
+              Theoretical vulnerabilities without POC
           </li>
           <li class="ineligibility__list-item">
-            Any Dos/DDoS activities
+              Any Dos/DDoS activities
           </li>
           <li class="ineligibility__list-item">
-            Invalid or missing SPF records (incomplete or missing
-            SPF/DKIM/DMARC)
+              Invalid or missing SPF records (incomplete or missing SPF/DKIM/DMARC)
           </li>
           <li class="ineligibility__list-item">
-            Clickjacking/UI with minimal security impact
+              Clickjacking/UI with minimal security impact
           </li>
           <li class="ineligibility__list-item">
-            Phishing
+              Phishing
           </li>
           <li class="ineligibility__list-item">Tab-nabbing</li>
-          <li class="ineligibility__list-item">Content spoofing</li>
-          <li class="ineligibility__list-item">Cache-control related issues</li>
-          <li class="ineligibility__list-item">
-            Exposure of internal IP address or domains
-          </li>
-          <li class="ineligibility__list-item">
-            Vulnerabilities affecting outdated or unpatched browsers
-          </li>
-          <li class="ineligibility__list-item">
-            Bugs already known or already reported by someone else (reward goes
-            to first reporter)
-          </li>
-          <li class="ineligibility__list-item">
-            Issues that aren't reproducible
-          </li>
-          <li class="ineligibility__list-item">
-            Email/SMS bomb
-          </li>
         </ul>
       </div>
 
       <div class="ineligibility__list-sec">
         <div class="ineligibility_head" data-aos="fade-up">
-          <h2 class="font-51">Actions to avoid</h2>
+          <h3>Actions to avoid</h3>
         </div>
 
         <ul class="ineligibility_list" data-aos="fade-up">
           <li class="ineligibility__list-item">
-            Testing on other users accounts
+              Testing on other users accounts
           </li>
           <li class="ineligibility__list-item">
-            Automated testing using tools such as scanners
+              Automated testing using tools such as scanners
           </li>
           <li class="ineligibility__list-item">
-            Excessive request attempts that affects the availability of our
-            services to all users
+              Excessive request attempts that affects the availability of our services to all users
           </li>
           <li class="ineligibility__list-item">
-            Destruction of data
+              Destruction of data
           </li>
           <li class="ineligibility__list-item">
-            Disrupt of services
+              Disrupt of services
           </li>
         </ul>
       </div>

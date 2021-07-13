@@ -3,9 +3,9 @@
         <CareerMainContainer />
         <CareerValues />
         <CareerTopics v-if="false"/>
-        <CareerSlider />
-        <CareerBenefits />
-        <CareerHireSteps />
+        <CareerSlider v-if="false"/>
+        <CareerBenefits v-if="false"/>
+        <CareerHireSteps v-if="false"/>
     </div>
 </template>
 

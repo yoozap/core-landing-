@@ -147,6 +147,12 @@ button {
     position: absolute;
     left: -60px;
 }
+.mb-100{
+    margin-bottom: 100px;
+}
+.mt-100{
+    margin-top: 100px;
+}
 /*Laptop 1440*/
 @media (max-width: 1900px){
     .font-72{

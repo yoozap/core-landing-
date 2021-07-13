@@ -23,8 +23,11 @@
               <span>Bounty</span>
             </h1>
           </div>
-          <h3 data-aos="fade-up">Together, we improve!</h3>
-          <div class="counter-container" data-aos="fade-up">
+          <h3 data-aos="fade-up">CORE is calling all bug bounty hunters to identify bugs in the CORE Framework. We invite our
+              community and all professional bug hunters to investigate and responsibly report findings to us.
+              The rewards will range from an equivalent of 10 – 1000 USDT, with an increase according to the submission quality and seriousness of the identified threat. In the case of many hackers finding the same bug,
+              the first to submit earns the reward.</h3>
+          <div class="counter-container" data-aos="fade-up" v-if="false">
             <div class="counter-item">
               <div class="counter-num font-51">391</div>
               <div class="counter-ttl">Suggestions</div>

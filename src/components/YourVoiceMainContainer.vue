@@ -24,10 +24,9 @@
                         </h1>
                     </div>
                     <div class="content_description">
-                        Your feedback is invaluable to us. It helps to improve
-                        our product and your experience with us – that's why we
-                        incentivize users who provide us useful feedback through
-                        this form.
+                        Community feedback helps CORE improve and grow. Users who provide feedback on their experience
+                        help ensure the growth of CORE and lead us in the direction that the community needs to be. Please use
+                        the following form to contribute your thoughts to CORE:
                     </div>
                 </div>
             </div>
