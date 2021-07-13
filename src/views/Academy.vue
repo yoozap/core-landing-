@@ -23,7 +23,7 @@ import AcademyBanner from "@/components/AcademyBanner.vue";
 import AcademyBlockchain from "@/components/AcademyBlockchain.vue";
 
 export default {
-    name: "BugBounty",
+    name: "Academy",
     components: {
         AcademyMainContainer,
         AcademyTopics,

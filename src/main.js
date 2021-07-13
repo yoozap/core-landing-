@@ -5,7 +5,7 @@ import router from "./router";
 import store from "./store";
 import "./assets/css/main.css";
 import VueAwesomeSwiper from "vue-awesome-swiper";
-import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/swiper-bundle.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,15 +23,13 @@ import Meta from "vue-meta";
 import CloudflareVideoPlayer from "vue-cloudflare-video-player";
 import Element from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
-import axios from 'axios';
-import VueAxios from 'vue-axios';
-import VueKinesis from 'vue-kinesis'
+import axios from "axios";
+import VueAxios from "vue-axios";
+import VueKinesis from "vue-kinesis";
 
-Vue.use(VueKinesis)
+Vue.use(VueKinesis);
 Vue.use(VueAxios, axios);
 // axios.defaults.baseURL = 'http://cmcx.test';
-
-
 
 Vue.use(CloudflareVideoPlayer);
 Vue.use(Meta);
@@ -41,13 +39,13 @@ Vue.use(vClickOutside);
 Vue.use(Clipboard);
 
 Vue.use(VueMq, {
-  breakpoints: {
-    phone: 768,
-    tablet: 1023,
-    md: 1366,
-    lg: 1367
-  },
-  defaultBreakpoint: "sm" // customize this for SSR
+    breakpoints: {
+        phone: 768,
+        tablet: 1023,
+        md: 1366,
+        lg: 1367
+    },
+    defaultBreakpoint: "sm" // customize this for SSR
 });
 
 Vue.use(VueScrollactive);
@@ -63,18 +61,18 @@ Vue.use(checkView);
 AOS.init();
 
 Vue.use(VueAwesomeSwiper);
-Swiper.use([Navigation, Pagination]);
+Swiper.use([Navigation, Pagination, Scrollbar]);
 Vue.config.productionTip = false;
 
 Vue.use(VueSmoothScroll, {
-  duration: 400,
-  updateHistory: false
+    duration: 400,
+    updateHistory: false
 });
 
 Vue.use(Element);
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount("#app");
