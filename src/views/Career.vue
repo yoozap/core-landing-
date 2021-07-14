@@ -5,7 +5,7 @@
         <CareerTopics v-if="false"/>
         <CareerSlider v-if="false"/>
         <CareerBenefits v-if="false"/>
-        <CareerHireSteps v-if="false"/>
+        <CareerHireSteps v-if="true"/>
     </div>
 </template>
 

@@ -3,7 +3,7 @@
     <BugBountyMainContainer />
     <Eligibility />
     <Ineligibility />
-    <Rewards v-if="false"/>
+    <Rewards/>
     <ReportBug />
   </div>
 </template>
