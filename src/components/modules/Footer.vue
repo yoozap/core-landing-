@@ -550,10 +550,10 @@ export default {
                             name: "Careers",
                             url: "/careers"
                         },
-                        {
-                            name: "Resources",
-                            url: "/resources"
-                        },
+                        // {
+                        //     name: "Resources",
+                        //     url: "/resources"
+                        // },
                         // {
                         //     name: "Blog",
                         //     url: "/blog"
@@ -587,10 +587,10 @@ export default {
                             name: "Your Voice Matter",
                             url: "/your-voice"
                         },
-                        {
-                            name: "Support Center",
-                            url: "/support"
-                        },
+                        // {
+                        //     name: "Support Center",
+                        //     url: "/support"
+                        // },
                         // {
                         //     name: "FAQ",
                         //     url: "/faq"
@@ -637,10 +637,10 @@ export default {
                         //     name: "Gravity",
                         //     url: "/gravity"
                         // },
-                        {
-                            name: "Research Areas",
-                            url: "/research-areas"
-                        },
+                        // {
+                        //     name: "Research Areas",
+                        //     url: "/research-areas"
+                        // },
                         {
                             name: "Core Paper",
                             url: "/docs/core-paper.pdf",
