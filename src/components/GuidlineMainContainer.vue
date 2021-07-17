@@ -160,7 +160,7 @@
             <div data-aos="fade-up" class="logo-variants__container guidline__flex pT-160 pB-160">
                 <div class="logo-variants__products-container">
                     <h3 class="font-51">Product Logos</h3>
-                    <div class="logo-variants__products-description">CORE is a decentralized network, and it is constantly growing through community contributions. We have many projects under the CORE ultichain. Here are current working versions of these project logos.</div>
+                    <div class="logo-variants__products-description">CORE is a decentralized network, and it is constantly growing through community contributions. We have many projects under the CORE Multichain. Here are current working versions of these project logos.</div>
                     <div class="logo-variants__products-logoes">
                         <div class="logo-variants__products-logo">
                             <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">

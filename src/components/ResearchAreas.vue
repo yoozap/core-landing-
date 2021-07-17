@@ -14,8 +14,7 @@
       </div>
       <div class="container" data-aos="fade-up">
         <div class="research__container">
-          <div class="research__sub">An archive of Blockstream's cutting-edge Bitcoin <br>
-            technology research</div>
+          <div class="research__sub">CORE has been involved in intense academic research since inception and explores new advances in computing and related fields. CORE has an open-source research, development, and deployment laboratory. We believe in community, collaboration, and furthering the growth and reach of blockchain technology. In continuing our goal to make a lasting contribution to the blockchain ecosystem the following is an archive of all the research conducted by the CORE team.</div>
           <div class="research__tabs">
             <div class="research__tab" v-for="research in $store.state.research" :key="research.id" @click="openBlog(research.id)" :class="activeBlog == research.id ? 'active': ''">
               <div class="research__tab-title-container">

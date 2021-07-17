@@ -36,7 +36,7 @@
                         <br>
                         <p>
                             With team members located in over 40 different countries, CORE recruits internationally but allows team
-                            members to work locally. Whether you live in the middle of Shenzhen or on a Miami beach, work loca-tion is limited only by imagination.
+                            members to work locally. Whether you live in the middle of Shenzhen or on a Miami beach, work location is limited only by imagination.
                         </p>
                         <br>
                         <br>

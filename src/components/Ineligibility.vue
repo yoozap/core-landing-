@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div class="bg_img">
-      <img src="../assets/img/bg-img.png" alt="" v-prlx="{ speed: 0.1 }" />
+      <img src="../assets/img/bug2.png" alt="" v-prlx="{ speed: 0.1 }" />
       <div class="img_layer"></div>
     </div>
     <div class="ineligibility__container">

@@ -29,6 +29,7 @@ import Hackathon from "../views/Hackathon.vue";
 import Events from "../views/Events.vue";
 import Press from "../views/Press.vue";
 import Gravity from "../views/Gravity.vue";
+import AcademySoon from "../views/AcademySoon.vue";
 
 Vue.use(VueRouter);
 
@@ -148,12 +149,12 @@ const routes = [
         component: YourVoice,
         meta: { scrollToTop: true }
     },
-    {
-        path: "/academy",
-        name: "Academy",
-        component: Academy,
-        meta: { scrollToTop: true }
-    },
+    // {
+    //     path: "/academy",
+    //     name: "Academy",
+    //     component: Academy,
+    //     meta: { scrollToTop: true }
+    // },
     {
         path: "/article",
         name: "Article",
@@ -214,6 +215,12 @@ const routes = [
         path: "/gravity",
         name: "Gravity",
         component: Gravity,
+        meta: { scrollToTop: true }
+    },
+    {
+        path: "/academy",
+        name: "Gravity",
+        component: AcademySoon,
         meta: { scrollToTop: true }
     }
 ];

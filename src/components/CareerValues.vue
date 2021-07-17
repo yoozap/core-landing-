@@ -51,7 +51,7 @@
             </div>
             <div class="career-qualities__text">
                 From developers to the leadership team, all CORE team members share the CORE Values and the common goal of benefiting mankind through our technology. Our team is a unit that builds together, shares
-                ideas, and helps where needed. CORE believes in knowing the person behind the avatar. Whether it involves travelling, a phone call, or an online meeting, we don!t want faceless players on our team.
+                ideas, and helps where needed. CORE believes in knowing the person behind the avatar. Whether it involves travelling, a phone call, or an online meeting, we don't want faceless players on our team.
             </div>
             <div class="career-qualities__subttl">
                 Strong Team Member Relationships
@@ -94,7 +94,7 @@
             <div class="career-qualities__text">
                 If you've smashed the assignment and interview, the next step is 3-5 days of paid work to see if synergy
                 exists between you and the other team members.
-                If all goes well, we!ll have a second interview to discuss any questions before officially incorporating you
+                If all goes well, we'll have a second interview to discuss any questions before officially incorporating you
                 into our team.
                 The recruitment process differs depending on the position. The common goal for each candidate is to
                 ensure you have the necessary remote working and role-specific skills for your position.
@@ -149,9 +149,9 @@
             </div>
         </div>
         <div data-aos="fade-up" class="container career-qualities">
-            <h2 class="font-51">Current Openings</h2>
+            <h2 class="font-51">Benefits</h2>
             <ul>
-                <li>An offer you can!t refuse</li>
+                <li>An offer you can't refuse</li>
                 <li>Freedom to choose when and where you work</li>
                 <li>24 days of paid time off a year, plus local holidays</li>
                 <li>Between 2 and 8 in-person meetups per year for team-building (expenses covered)</li>

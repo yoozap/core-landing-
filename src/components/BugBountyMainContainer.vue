@@ -10,7 +10,7 @@
       <div class="bounty-bg__outer">
         <img
           v-prlx="{ speed: 0.1 }"
-          :src="require(`@/assets/img/bounty-bg.png`)"
+          :src="require(`@/assets/img/bug.png`)"
           alt=""
           class="bounty-bg"
         />

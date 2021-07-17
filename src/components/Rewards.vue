@@ -7,11 +7,11 @@
 
             <div class="rewards__steps" data-aos="fade-up">
                 <div class="rewards__step">
-                    <div class="rewards__steps-ttl font-51">First</div>
+                    <div class="rewards__steps-ttl">First</div>
                     <div class="rewards__steps-desc">Submit suggestions</div>
                 </div>
                 <div class="rewards__step">
-                    <div class="rewards__steps-ttl font-51">Then</div>
+                    <div class="rewards__steps-ttl">Then</div>
                     <div class="rewards__steps-desc">Get rewarded</div>
                 </div>
             </div>
@@ -57,6 +57,10 @@
 </template>
 
 <style scoped>
+    .rewards__steps-ttl{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 .rewards__container {
     margin-top: 100px;
     padding-top: 100px;

@@ -621,10 +621,10 @@ export default {
                             name: "Tokenomics",
                             url: "/tokenomics"
                         },
-                        // {
-                        //     name: "Academy",
-                        //     url: "/academy"
-                        // },
+                        {
+                            name: "Academy",
+                            url: "/academy"
+                        },
                         // {
                         //     name: "Core Wiki",
                         //     url: "/wiki"
