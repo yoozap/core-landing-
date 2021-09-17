@@ -602,7 +602,12 @@ export default {
                     links: [
                         {
                             name: "Contribution",
-                            url: "/contribution"
+                            url: "https://cmcx.io/",
+                            target: "blank"
+                        },
+                        {
+                          name: "Core Ecosystem",
+                          url: "/ecosystem"
                         }
                     ]
                 },

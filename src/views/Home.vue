@@ -9,6 +9,7 @@
     <Cmcx/>
     <About/>
     <Generation/>
+    <TradePlatforms/>
     <UseCases :itemData="$store.state.cases"/>
     <Developers/>
     <Statistic :statData="$store.state.statistic"/>
@@ -34,6 +35,7 @@ import Generation from '../components/Generation'
 import Developers from '../components/Developers'
 import Paper from '../components/Paper'
 import Cmcx from '../components/Cmcx'
+import TradePlatforms from '../components/TradePlatforms'
 
 export default {
   name: 'Home',
@@ -52,7 +54,8 @@ export default {
     Faq,
     About,
     Paper,
-    Cmcx
+    Cmcx,
+    TradePlatforms
   }
 }
 </script>

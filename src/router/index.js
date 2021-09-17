@@ -30,6 +30,7 @@ import Events from "../views/Events.vue";
 import Press from "../views/Press.vue";
 import Gravity from "../views/Gravity.vue";
 import AcademySoon from "../views/AcademySoon.vue";
+import Ecosystem from "../views/Ecosystem.vue";
 
 Vue.use(VueRouter);
 
@@ -222,6 +223,12 @@ const routes = [
         name: "Gravity",
         component: AcademySoon,
         meta: { scrollToTop: true }
+    },
+    {
+      path: "/ecosystem",
+      name: "Ecosystem",
+      component: Ecosystem,
+      meta: { scrollToTop: true }
     }
 ];
 

@@ -1013,6 +1013,62 @@
                 ]
             }
         ]
+    },
+   "ecosystem": [
+    {
+      "id": 1,
+      "url": "https://www.okex.com/",
+      "title": "OKEX",
+      "text": "One of the world's leading crypto exchanges, listed SOL on September 30th, 2020.",
+      "image": "okex.svg",
+      "color": "#163583",
+      "types": ["exchange"]
+    },
+    {
+      "id": 2,
+      "url": "https://p2pb2b.io/",
+      "title": "P2PB2B",
+      "text": "The platform includes all the necessary tools to make your trading even more convenient and safe.",
+      "image": "p2pb2b.svg",
+      "color": "#269B63",
+      "types": ["exchange","dex","amm"]
+    },
+    {
+      "id": 3,
+      "url": "https://vindax.com/",
+      "title": "Vindax",
+      "text": "Cryptocurrencies and blockchain assets with wider audience using a beautifully designed user interface and intuitive trading technology.",
+      "image": "vindax.svg",
+      "color": "#202635",
+      "types": ["exchange","dex","amm"]
+    },
+    {
+      "id": 4,
+      "url": "https://aofex.com/",
+      "title": "Aofex",
+      "text": "Global Leading Service Platform of Digital Assets with Security.",
+      "image": "aofex.svg",
+      "color": "#FD5B2C",
+      "types": ["exchange"]
+    },
+    {
+      "id": 5,
+      "url": "https://www.lbank.info/",
+      "title": "Lbank",
+      "text": "The World Class Digital Asset Exchange.",
+      "image": "lbank.svg",
+      "color": "#40404C",
+      "types": ["exchange","dex","amm"]
+    },
+    {
+      "id": 6,
+      "url": "https://www.coinex.com/",
+      "title": "CoinEx",
+      "text": "The Global Digital Coin Exchange.",
+      "image": "coinex.svg",
+      "color": "#099F94",
+      "types": ["exchange"]
     }
+  ]
 }
 

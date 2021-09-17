@@ -26,7 +26,8 @@ export default new Vuex.Store({
     academy: items.academy,
     firstTopic: null,
     secondTopic: null,
-    token: localStorage.getItem('token') || null
+    token: localStorage.getItem('token') || null,
+    ecosystem: items.ecosystem
   },
   getters: {
     getSideMenuState: (state) => state.sideMenu,
