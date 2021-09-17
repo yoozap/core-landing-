@@ -5,7 +5,7 @@
             <a href="https://1inch.io/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/1inch.svg`)" alt="1inch"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">1inch</div>
+                    <div class="platform_text-inner">1Inch</div>
                 </div>
             </a>
             <a href="https://vindax.com/" target="_blank" class="platform">
@@ -41,19 +41,19 @@
             <a href="https://www.coinex.com/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/coinex.svg`)" alt="coinex"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">CoinEx</div>
+                    <div class="platform_text-inner">CoinEX</div>
                 </div>
             </a>
             <a href="https://aofex.com/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/aofex.svg`)" alt="aofex"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">Aofex</div>
+                    <div class="platform_text-inner">AOFEX</div>
                 </div>
             </a>
             <a href="https://www.okex.com/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/okex.svg`)" alt="okex"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">Okex</div>
+                    <div class="platform_text-inner">OKEX</div>
                 </div>
             </a>
             <a href="https://www.liquid.com/" target="_blank" class="platform">
@@ -71,7 +71,7 @@
             <a href="https://pancakeswap.finance" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/pancakeswap.svg`)" alt="pancake-swap"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">Pancake Swap</div>
+                    <div class="platform_text-inner">PancakeSwap</div>
                 </div>
             </a>
             <a href="https://www.xt.com/" target="_blank" class="platform">
@@ -83,13 +83,13 @@
             <a href="https://www.kucoin.com/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/kucoin.svg`)" alt="kucoin"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">Kucoin</div>
+                    <div class="platform_text-inner">KuCoin</div>
                 </div>
             </a>
             <a href="https://p2pb2b.io/" target="_blank" class="platform">
                 <img :src="require(`@/assets/img/platforms/p2pb2b.svg`)" alt="p2pb2b"/>
                 <div class="platform_text">
-                    <div class="platform_text-inner">P2PB2B</div>
+                    <div class="platform_text-inner">p2pb2b</div>
                 </div>
             </a>
             <div class="platforms__text-container">
