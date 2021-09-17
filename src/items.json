@@ -1068,7 +1068,88 @@
       "image": "coinex.svg",
       "color": "#099F94",
       "types": ["exchange"]
-    }
+    },
+   {
+     "id": 7,
+     "url": "https://www.xt.com/",
+     "title": "XT",
+     "text": "The World's First Social Infused Exchange. Best Selection of Cryptocurrencies.",
+     "image": "xt.svg",
+     "color": "#2D2D2E",
+     "types": ["exchange"]
+   },
+     {
+       "id": 8,
+       "url": "https://www.bitmart.com/",
+       "title": "BitMart",
+       "text": "The most trusted cryptocurrency trading platform.",
+       "image": "bitmart.svg",
+       "color": "#13C2C2",
+       "types": ["exchange"]
+     },
+     {
+       "id": 9,
+       "url": "https://www.probit.com/",
+       "title": "Probit",
+       "text": "Crypto exchange worldwide servicing crypto enthusiasts with unlimited access to trade and buy Bitcoin, Etherereum and others.",
+       "image": "probit.svg",
+       "color": "#232330",
+       "types": ["exchange"]
+     },
+     {
+       "id": 10,
+       "url": "https://www.hotbit.io/",
+       "title": "Hotbit",
+       "text": "The World's Leading Cryptocurrency Trading Platform.",
+       "image": "hotbit.svg",
+       "color": "#0B152C",
+       "types": ["exchange"]
+     },
+     {
+       "id": 11,
+       "url": "https://www.liquid.com/",
+       "title": "Liquid",
+       "text": "The world’s most comprehensive and secure trading platform. Buy and sell Bitcoin, Ethereum, XRP and many other cryptocurrencies with fiat or crypto.",
+       "image": "liquid.svg",
+       "color": "#2C3149",
+       "types": ["exchange"]
+     },
+     {
+       "id": 12,
+       "url": "https://www.kucoin.com/",
+       "title": "Kucoin",
+       "text": "KuCoin believes that technological progress will revolutionize the way we create and distribute value.\nAnd one day everyone will get involved with crypto.",
+       "image": "kucoin.svg",
+       "color": "#000A1E",
+       "types": ["exchange"]
+     },
+     {
+       "id": 13,
+       "url": "https://justswap.io/",
+       "title": "JustSwap",
+       "text": "TRON-based decentralized trading protocol for automated liquidity provision and an open financial market accessible to all.",
+       "image": "justswap.svg",
+       "color": "#000000",
+       "types": ["exchange"]
+     },
+     {
+       "id": 14,
+       "url": "https://pancakeswap.finance/",
+       "title": "Pancake Swap",
+       "text": "PancakeSwap has the most users of any decentralized platform, ever.",
+       "image": "pancakeswap.svg",
+       "color": "#1FC7D4",
+       "types": ["exchange"]
+     },
+     {
+       "id": 15,
+       "url": "https://1inch.io/",
+       "title": "1inch",
+       "text": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+       "image": "1inch.svg",
+       "color": "#2F7AEA",
+       "types": ["exchange"]
+     }
   ]
 }
 
